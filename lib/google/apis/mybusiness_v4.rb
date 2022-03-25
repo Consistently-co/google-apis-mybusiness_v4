@@ -1,4 +1,4 @@
-# Copyright 2020 Google LLC
+# Copyright 2015 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,10 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require "google/apis/mybusiness_v4/service"
-require "google/apis/mybusiness_v4/classes"
-require "google/apis/mybusiness_v4/representations"
-require "google/apis/mybusiness_v4/gem_version"
+require "google/apis/mybusiness_v4/service.rb"
+require "google/apis/mybusiness_v4/classes.rb"
+require "google/apis/mybusiness_v4/representations.rb"
 
 module Google
   module Apis
@@ -26,9 +25,8 @@ module Google
     #
     # @see https://developers.google.com/my-business/
     module MybusinessV4
-      # Version of the Google My Business API this client connects to.
-      # This is NOT the gem version.
       VERSION = "V4"
+      REVISION = "0"
     end
   end
 end

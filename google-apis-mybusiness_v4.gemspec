@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
     "bug_tracker_uri" => "https://github.com/googleapis/google-api-ruby-client/issues",
     "changelog_uri" => "https://github.com/googleapis/google-api-ruby-client/tree/master/generated/google-apis-mybusiness_v4/CHANGELOG.md",
     "documentation_uri" => "https://googleapis.dev/ruby/google-apis-mybusiness_v4/v#{Google::Apis::MybusinessV4::GEM_VERSION}",
-    "source_code_uri" => "https://github.com/googleapis/google-api-ruby-client/tree/master/generated/google-apis-mybusiness_v4"
+    "source_code_uri" => "https://github.com/googleapis/google-api-ruby-client/tree/master/generated/google-apis-mybusiness_v4",
   }
 
   gem.files = Dir.glob("lib/**/*.rb") + Dir.glob("*.md") + [".yardopts"]

@@ -1,4 +1,4 @@
-# Copyright 2020 Google LLC
+# Copyright 2015 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessible`
         # @return [Boolean]
         attr_accessor :mobility_accessible
-        alias_method :mobility_accessible?, :mobility_accessible
+        alias mobility_accessible? mobility_accessible
 
         # Mobility accessible elevator. A lift that transports people from one level to
         # another and is built to accommodate a wheelchair-using passenger owing to the
@@ -53,7 +53,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleElevator`
         # @return [Boolean]
         attr_accessor :mobility_accessible_elevator
-        alias_method :mobility_accessible_elevator?, :mobility_accessible_elevator
+        alias mobility_accessible_elevator? mobility_accessible_elevator
 
         # Mobility accessible elevator exception.
         # Corresponds to the JSON property `mobilityAccessibleElevatorException`
@@ -71,7 +71,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleParking`
         # @return [Boolean]
         attr_accessor :mobility_accessible_parking
-        alias_method :mobility_accessible_parking?, :mobility_accessible_parking
+        alias mobility_accessible_parking? mobility_accessible_parking
 
         # Mobility accessible parking exception.
         # Corresponds to the JSON property `mobilityAccessibleParkingException`
@@ -85,7 +85,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessiblePool`
         # @return [Boolean]
         attr_accessor :mobility_accessible_pool
-        alias_method :mobility_accessible_pool?, :mobility_accessible_pool
+        alias mobility_accessible_pool? mobility_accessible_pool
 
         # Mobility accessible pool exception.
         # Corresponds to the JSON property `mobilityAccessiblePoolException`
@@ -209,7 +209,7 @@ module Google
         # Corresponds to the JSON property `beachAccess`
         # @return [Boolean]
         attr_accessor :beach_access
-        alias_method :beach_access?, :beach_access
+        alias beach_access? beach_access
 
         # Beach access exception.
         # Corresponds to the JSON property `beachAccessException`
@@ -223,7 +223,7 @@ module Google
         # Corresponds to the JSON property `beachFront`
         # @return [Boolean]
         attr_accessor :beach_front
-        alias_method :beach_front?, :beach_front
+        alias beach_front? beach_front
 
         # Beach front exception.
         # Corresponds to the JSON property `beachFrontException`
@@ -235,7 +235,7 @@ module Google
         # Corresponds to the JSON property `bicycleRental`
         # @return [Boolean]
         attr_accessor :bicycle_rental
-        alias_method :bicycle_rental?, :bicycle_rental
+        alias bicycle_rental? bicycle_rental
 
         # Bicycle rental exception.
         # Corresponds to the JSON property `bicycleRentalException`
@@ -248,7 +248,7 @@ module Google
         # Corresponds to the JSON property `boutiqueStores`
         # @return [Boolean]
         attr_accessor :boutique_stores
-        alias_method :boutique_stores?, :boutique_stores
+        alias boutique_stores? boutique_stores
 
         # Boutique stores exception.
         # Corresponds to the JSON property `boutiqueStoresException`
@@ -261,7 +261,7 @@ module Google
         # Corresponds to the JSON property `casino`
         # @return [Boolean]
         attr_accessor :casino
-        alias_method :casino?, :casino
+        alias casino? casino
 
         # Casino exception.
         # Corresponds to the JSON property `casinoException`
@@ -273,7 +273,7 @@ module Google
         # Corresponds to the JSON property `freeBicycleRental`
         # @return [Boolean]
         attr_accessor :free_bicycle_rental
-        alias_method :free_bicycle_rental?, :free_bicycle_rental
+        alias free_bicycle_rental? free_bicycle_rental
 
         # Free bicycle rental exception.
         # Corresponds to the JSON property `freeBicycleRentalException`
@@ -285,7 +285,7 @@ module Google
         # Corresponds to the JSON property `freeWatercraftRental`
         # @return [Boolean]
         attr_accessor :free_watercraft_rental
-        alias_method :free_watercraft_rental?, :free_watercraft_rental
+        alias free_watercraft_rental? free_watercraft_rental
 
         # Free Watercraft rental exception.
         # Corresponds to the JSON property `freeWatercraftRentalException`
@@ -300,7 +300,7 @@ module Google
         # Corresponds to the JSON property `gameRoom`
         # @return [Boolean]
         attr_accessor :game_room
-        alias_method :game_room?, :game_room
+        alias game_room? game_room
 
         # Game room exception.
         # Corresponds to the JSON property `gameRoomException`
@@ -313,7 +313,7 @@ module Google
         # Corresponds to the JSON property `golf`
         # @return [Boolean]
         attr_accessor :golf
-        alias_method :golf?, :golf
+        alias golf? golf
 
         # Golf exception.
         # Corresponds to the JSON property `golfException`
@@ -327,7 +327,7 @@ module Google
         # Corresponds to the JSON property `horsebackRiding`
         # @return [Boolean]
         attr_accessor :horseback_riding
-        alias_method :horseback_riding?, :horseback_riding
+        alias horseback_riding? horseback_riding
 
         # Horseback riding exception.
         # Corresponds to the JSON property `horsebackRidingException`
@@ -340,7 +340,7 @@ module Google
         # Corresponds to the JSON property `nightclub`
         # @return [Boolean]
         attr_accessor :nightclub
-        alias_method :nightclub?, :nightclub
+        alias nightclub? nightclub
 
         # Nightclub exception.
         # Corresponds to the JSON property `nightclubException`
@@ -352,7 +352,7 @@ module Google
         # Corresponds to the JSON property `privateBeach`
         # @return [Boolean]
         attr_accessor :private_beach
-        alias_method :private_beach?, :private_beach
+        alias private_beach? private_beach
 
         # Private beach exception.
         # Corresponds to the JSON property `privateBeachException`
@@ -369,7 +369,7 @@ module Google
         # Corresponds to the JSON property `scuba`
         # @return [Boolean]
         attr_accessor :scuba
-        alias_method :scuba?, :scuba
+        alias scuba? scuba
 
         # Scuba exception.
         # Corresponds to the JSON property `scubaException`
@@ -385,7 +385,7 @@ module Google
         # Corresponds to the JSON property `snorkeling`
         # @return [Boolean]
         attr_accessor :snorkeling
-        alias_method :snorkeling?, :snorkeling
+        alias snorkeling? snorkeling
 
         # Snorkeling exception.
         # Corresponds to the JSON property `snorkelingException`
@@ -401,7 +401,7 @@ module Google
         # Corresponds to the JSON property `tennis`
         # @return [Boolean]
         attr_accessor :tennis
-        alias_method :tennis?, :tennis
+        alias tennis? tennis
 
         # Tennis exception.
         # Corresponds to the JSON property `tennisException`
@@ -415,7 +415,7 @@ module Google
         # Corresponds to the JSON property `waterSkiing`
         # @return [Boolean]
         attr_accessor :water_skiing
-        alias_method :water_skiing?, :water_skiing
+        alias water_skiing? water_skiing
 
         # Water skiing exception.
         # Corresponds to the JSON property `waterSkiingException`
@@ -429,7 +429,7 @@ module Google
         # Corresponds to the JSON property `watercraftRental`
         # @return [Boolean]
         attr_accessor :watercraft_rental
-        alias_method :watercraft_rental?, :watercraft_rental
+        alias watercraft_rental? watercraft_rental
 
         # Watercraft rental exception.
         # Corresponds to the JSON property `watercraftRentalException`
@@ -576,7 +576,7 @@ module Google
         # Corresponds to the JSON property `pendingInvitation`
         # @return [Boolean]
         attr_accessor :pending_invitation
-        alias_method :pending_invitation?, :pending_invitation
+        alias pending_invitation? pending_invitation
 
         # Specifies the AdminRole that this admin uses with the specified Account or
         # Location resource.
@@ -752,14 +752,14 @@ module Google
         # Corresponds to the JSON property `isDeprecated`
         # @return [Boolean]
         attr_accessor :is_deprecated
-        alias_method :is_deprecated?, :is_deprecated
+        alias is_deprecated? is_deprecated
 
         # If true, the attribute supports multiple values. If false, only a single value
         # should be provided.
         # Corresponds to the JSON property `isRepeatable`
         # @return [Boolean]
         attr_accessor :is_repeatable
-        alias_method :is_repeatable?, :is_repeatable
+        alias is_repeatable? is_repeatable
 
         # For some types of attributes (for example, enums), a list of supported values
         # and corresponding display names for those values is provided.
@@ -980,7 +980,7 @@ module Google
         # Corresponds to the JSON property `ignoreRatingOnlyReviews`
         # @return [Boolean]
         attr_accessor :ignore_rating_only_reviews
-        alias_method :ignore_rating_only_reviews?, :ignore_rating_only_reviews
+        alias ignore_rating_only_reviews? ignore_rating_only_reviews
 
         # A collection of locations to fetch reviews for, specified by their names.
         # Corresponds to the JSON property `locationNames`
@@ -1058,7 +1058,7 @@ module Google
         # Corresponds to the JSON property `businessCenter`
         # @return [Boolean]
         attr_accessor :business_center
-        alias_method :business_center?, :business_center
+        alias business_center? business_center
 
         # Business center exception.
         # Corresponds to the JSON property `businessCenterException`
@@ -1072,7 +1072,7 @@ module Google
         # Corresponds to the JSON property `meetingRooms`
         # @return [Boolean]
         attr_accessor :meeting_rooms
-        alias_method :meeting_rooms?, :meeting_rooms
+        alias meeting_rooms? meeting_rooms
 
         # Meeting rooms count. The number of meeting rooms at the property.
         # Corresponds to the JSON property `meetingRoomsCount`
@@ -1369,7 +1369,7 @@ module Google
         # Corresponds to the JSON property `freeWifi`
         # @return [Boolean]
         attr_accessor :free_wifi
-        alias_method :free_wifi?, :free_wifi
+        alias free_wifi? free_wifi
 
         # Free wifi exception.
         # Corresponds to the JSON property `freeWifiException`
@@ -1382,7 +1382,7 @@ module Google
         # Corresponds to the JSON property `publicAreaWifiAvailable`
         # @return [Boolean]
         attr_accessor :public_area_wifi_available
-        alias_method :public_area_wifi_available?, :public_area_wifi_available
+        alias public_area_wifi_available? public_area_wifi_available
 
         # Public area wifi available exception.
         # Corresponds to the JSON property `publicAreaWifiAvailableException`
@@ -1395,7 +1395,7 @@ module Google
         # Corresponds to the JSON property `publicInternetTerminal`
         # @return [Boolean]
         attr_accessor :public_internet_terminal
-        alias_method :public_internet_terminal?, :public_internet_terminal
+        alias public_internet_terminal? public_internet_terminal
 
         # Public internet terminal exception.
         # Corresponds to the JSON property `publicInternetTerminalException`
@@ -1408,7 +1408,7 @@ module Google
         # Corresponds to the JSON property `wifiAvailable`
         # @return [Boolean]
         attr_accessor :wifi_available
-        alias_method :wifi_available?, :wifi_available
+        alias wifi_available? wifi_available
 
         # Wifi available exception.
         # Corresponds to the JSON property `wifiAvailableException`
@@ -1637,7 +1637,7 @@ module Google
         # Corresponds to the JSON property `isUserNameEditable`
         # @return [Boolean]
         attr_accessor :is_user_name_editable
-        alias_method :is_user_name_editable?, :is_user_name_editable
+        alias is_user_name_editable? is_user_name_editable
 
         # User name in the email address. e.g. "foo" in foo@gmail.com
         # Corresponds to the JSON property `userName`
@@ -1681,7 +1681,7 @@ module Google
         # Corresponds to the JSON property `commercialGradeDisinfectantCleaning`
         # @return [Boolean]
         attr_accessor :commercial_grade_disinfectant_cleaning
-        alias_method :commercial_grade_disinfectant_cleaning?, :commercial_grade_disinfectant_cleaning
+        alias commercial_grade_disinfectant_cleaning? commercial_grade_disinfectant_cleaning
 
         # Commercial grade disinfectant cleaning exception.
         # Corresponds to the JSON property `commercialGradeDisinfectantCleaningException`
@@ -1692,7 +1692,7 @@ module Google
         # Corresponds to the JSON property `commonAreasEnhancedCleaning`
         # @return [Boolean]
         attr_accessor :common_areas_enhanced_cleaning
-        alias_method :common_areas_enhanced_cleaning?, :common_areas_enhanced_cleaning
+        alias common_areas_enhanced_cleaning? common_areas_enhanced_cleaning
 
         # Common areas enhanced cleaning exception.
         # Corresponds to the JSON property `commonAreasEnhancedCleaningException`
@@ -1703,7 +1703,7 @@ module Google
         # Corresponds to the JSON property `employeesTrainedCleaningProcedures`
         # @return [Boolean]
         attr_accessor :employees_trained_cleaning_procedures
-        alias_method :employees_trained_cleaning_procedures?, :employees_trained_cleaning_procedures
+        alias employees_trained_cleaning_procedures? employees_trained_cleaning_procedures
 
         # Employees trained cleaning procedures exception.
         # Corresponds to the JSON property `employeesTrainedCleaningProceduresException`
@@ -1714,7 +1714,7 @@ module Google
         # Corresponds to the JSON property `employeesTrainedThoroughHandWashing`
         # @return [Boolean]
         attr_accessor :employees_trained_thorough_hand_washing
-        alias_method :employees_trained_thorough_hand_washing?, :employees_trained_thorough_hand_washing
+        alias employees_trained_thorough_hand_washing? employees_trained_thorough_hand_washing
 
         # Employees trained thorough hand washing exception.
         # Corresponds to the JSON property `employeesTrainedThoroughHandWashingException`
@@ -1725,7 +1725,7 @@ module Google
         # Corresponds to the JSON property `employeesWearProtectiveEquipment`
         # @return [Boolean]
         attr_accessor :employees_wear_protective_equipment
-        alias_method :employees_wear_protective_equipment?, :employees_wear_protective_equipment
+        alias employees_wear_protective_equipment? employees_wear_protective_equipment
 
         # Employees wear protective equipment exception.
         # Corresponds to the JSON property `employeesWearProtectiveEquipmentException`
@@ -1736,7 +1736,7 @@ module Google
         # Corresponds to the JSON property `guestRoomsEnhancedCleaning`
         # @return [Boolean]
         attr_accessor :guest_rooms_enhanced_cleaning
-        alias_method :guest_rooms_enhanced_cleaning?, :guest_rooms_enhanced_cleaning
+        alias guest_rooms_enhanced_cleaning? guest_rooms_enhanced_cleaning
 
         # Guest rooms enhanced cleaning exception.
         # Corresponds to the JSON property `guestRoomsEnhancedCleaningException`
@@ -1773,7 +1773,7 @@ module Google
         # Corresponds to the JSON property `babysitting`
         # @return [Boolean]
         attr_accessor :babysitting
-        alias_method :babysitting?, :babysitting
+        alias babysitting? babysitting
 
         # Babysitting exception.
         # Corresponds to the JSON property `babysittingException`
@@ -1787,7 +1787,7 @@ module Google
         # Corresponds to the JSON property `kidsActivities`
         # @return [Boolean]
         attr_accessor :kids_activities
-        alias_method :kids_activities?, :kids_activities
+        alias kids_activities? kids_activities
 
         # Kids activities exception.
         # Corresponds to the JSON property `kidsActivitiesException`
@@ -1803,7 +1803,7 @@ module Google
         # Corresponds to the JSON property `kidsClub`
         # @return [Boolean]
         attr_accessor :kids_club
-        alias_method :kids_club?, :kids_club
+        alias kids_club? kids_club
 
         # Kids club exception.
         # Corresponds to the JSON property `kidsClubException`
@@ -1965,7 +1965,7 @@ module Google
         # Corresponds to the JSON property `bar`
         # @return [Boolean]
         attr_accessor :bar
-        alias_method :bar?, :bar
+        alias bar? bar
 
         # Bar exception.
         # Corresponds to the JSON property `barException`
@@ -1977,7 +1977,7 @@ module Google
         # Corresponds to the JSON property `breakfastAvailable`
         # @return [Boolean]
         attr_accessor :breakfast_available
-        alias_method :breakfast_available?, :breakfast_available
+        alias breakfast_available? breakfast_available
 
         # Breakfast available exception.
         # Corresponds to the JSON property `breakfastAvailableException`
@@ -1989,7 +1989,7 @@ module Google
         # Corresponds to the JSON property `breakfastBuffet`
         # @return [Boolean]
         attr_accessor :breakfast_buffet
-        alias_method :breakfast_buffet?, :breakfast_buffet
+        alias breakfast_buffet? breakfast_buffet
 
         # Breakfast buffet exception.
         # Corresponds to the JSON property `breakfastBuffetException`
@@ -2002,7 +2002,7 @@ module Google
         # Corresponds to the JSON property `buffet`
         # @return [Boolean]
         attr_accessor :buffet
-        alias_method :buffet?, :buffet
+        alias buffet? buffet
 
         # Buffet exception.
         # Corresponds to the JSON property `buffetException`
@@ -2014,7 +2014,7 @@ module Google
         # Corresponds to the JSON property `dinnerBuffet`
         # @return [Boolean]
         attr_accessor :dinner_buffet
-        alias_method :dinner_buffet?, :dinner_buffet
+        alias dinner_buffet? dinner_buffet
 
         # Dinner buffet exception.
         # Corresponds to the JSON property `dinnerBuffetException`
@@ -2026,7 +2026,7 @@ module Google
         # Corresponds to the JSON property `freeBreakfast`
         # @return [Boolean]
         attr_accessor :free_breakfast
-        alias_method :free_breakfast?, :free_breakfast
+        alias free_breakfast? free_breakfast
 
         # Free breakfast exception.
         # Corresponds to the JSON property `freeBreakfastException`
@@ -2041,7 +2041,7 @@ module Google
         # Corresponds to the JSON property `restaurant`
         # @return [Boolean]
         attr_accessor :restaurant
-        alias_method :restaurant?, :restaurant
+        alias restaurant? restaurant
 
         # Restaurant exception.
         # Corresponds to the JSON property `restaurantException`
@@ -2065,7 +2065,7 @@ module Google
         # Corresponds to the JSON property `roomService`
         # @return [Boolean]
         attr_accessor :room_service
-        alias_method :room_service?, :room_service
+        alias room_service? room_service
 
         # Room service exception.
         # Corresponds to the JSON property `roomServiceException`
@@ -2078,7 +2078,7 @@ module Google
         # Corresponds to the JSON property `tableService`
         # @return [Boolean]
         attr_accessor :table_service
-        alias_method :table_service?, :table_service
+        alias table_service? table_service
 
         # Table service exception.
         # Corresponds to the JSON property `tableServiceException`
@@ -2089,7 +2089,7 @@ module Google
         # Corresponds to the JSON property `twentyFourHourRoomService`
         # @return [Boolean]
         attr_accessor :twenty_four_hour_room_service
-        alias_method :twenty_four_hour_room_service?, :twenty_four_hour_room_service
+        alias twenty_four_hour_room_service? twenty_four_hour_room_service
 
         # 24hr room service exception.
         # Corresponds to the JSON property `twentyFourHourRoomServiceException`
@@ -2101,7 +2101,7 @@ module Google
         # Corresponds to the JSON property `vendingMachine`
         # @return [Boolean]
         attr_accessor :vending_machine
-        alias_method :vending_machine?, :vending_machine
+        alias vending_machine? vending_machine
 
         # Vending machine exception.
         # Corresponds to the JSON property `vendingMachineException`
@@ -2522,7 +2522,7 @@ module Google
         # Corresponds to the JSON property `bungalowOrVilla`
         # @return [Boolean]
         attr_accessor :bungalow_or_villa
-        alias_method :bungalow_or_villa?, :bungalow_or_villa
+        alias bungalow_or_villa? bungalow_or_villa
 
         # Bungalow or villa exception.
         # Corresponds to the JSON property `bungalowOrVillaException`
@@ -2536,7 +2536,7 @@ module Google
         # Corresponds to the JSON property `connectingUnitAvailable`
         # @return [Boolean]
         attr_accessor :connecting_unit_available
-        alias_method :connecting_unit_available?, :connecting_unit_available
+        alias connecting_unit_available? connecting_unit_available
 
         # Connecting unit available exception.
         # Corresponds to the JSON property `connectingUnitAvailableException`
@@ -2550,7 +2550,7 @@ module Google
         # Corresponds to the JSON property `executiveFloor`
         # @return [Boolean]
         attr_accessor :executive_floor
-        alias_method :executive_floor?, :executive_floor
+        alias executive_floor? executive_floor
 
         # Executive floor exception.
         # Corresponds to the JSON property `executiveFloorException`
@@ -2597,7 +2597,7 @@ module Google
         # Corresponds to the JSON property `privateHome`
         # @return [Boolean]
         attr_accessor :private_home
-        alias_method :private_home?, :private_home
+        alias private_home? private_home
 
         # Private home exception.
         # Corresponds to the JSON property `privateHomeException`
@@ -2611,7 +2611,7 @@ module Google
         # Corresponds to the JSON property `suite`
         # @return [Boolean]
         attr_accessor :suite
-        alias_method :suite?, :suite
+        alias suite? suite
 
         # Suite exception.
         # Corresponds to the JSON property `suiteException`
@@ -2781,7 +2781,7 @@ module Google
         # Corresponds to the JSON property `dailyHousekeeping`
         # @return [Boolean]
         attr_accessor :daily_housekeeping
-        alias_method :daily_housekeeping?, :daily_housekeeping
+        alias daily_housekeeping? daily_housekeeping
 
         # Daily housekeeping exception.
         # Corresponds to the JSON property `dailyHousekeepingException`
@@ -2793,7 +2793,7 @@ module Google
         # Corresponds to the JSON property `housekeepingAvailable`
         # @return [Boolean]
         attr_accessor :housekeeping_available
-        alias_method :housekeeping_available?, :housekeeping_available
+        alias housekeeping_available? housekeeping_available
 
         # Housekeeping available exception.
         # Corresponds to the JSON property `housekeepingAvailableException`
@@ -2806,7 +2806,7 @@ module Google
         # Corresponds to the JSON property `turndownService`
         # @return [Boolean]
         attr_accessor :turndown_service
-        alias_method :turndown_service?, :turndown_service
+        alias turndown_service? turndown_service
 
         # Turndown service exception.
         # Corresponds to the JSON property `turndownServiceException`
@@ -2836,7 +2836,7 @@ module Google
         # Corresponds to the JSON property `diningAreasAdditionalSanitation`
         # @return [Boolean]
         attr_accessor :dining_areas_additional_sanitation
-        alias_method :dining_areas_additional_sanitation?, :dining_areas_additional_sanitation
+        alias dining_areas_additional_sanitation? dining_areas_additional_sanitation
 
         # Dining areas additional sanitation exception.
         # Corresponds to the JSON property `diningAreasAdditionalSanitationException`
@@ -2847,7 +2847,7 @@ module Google
         # Corresponds to the JSON property `disposableFlatware`
         # @return [Boolean]
         attr_accessor :disposable_flatware
-        alias_method :disposable_flatware?, :disposable_flatware
+        alias disposable_flatware? disposable_flatware
 
         # Disposable flatware exception.
         # Corresponds to the JSON property `disposableFlatwareException`
@@ -2858,7 +2858,7 @@ module Google
         # Corresponds to the JSON property `foodPreparationAndServingAdditionalSafety`
         # @return [Boolean]
         attr_accessor :food_preparation_and_serving_additional_safety
-        alias_method :food_preparation_and_serving_additional_safety?, :food_preparation_and_serving_additional_safety
+        alias food_preparation_and_serving_additional_safety? food_preparation_and_serving_additional_safety
 
         # Food preparation and serving additional safety exception.
         # Corresponds to the JSON property `foodPreparationAndServingAdditionalSafetyException`
@@ -2869,7 +2869,7 @@ module Google
         # Corresponds to the JSON property `individualPackagedMeals`
         # @return [Boolean]
         attr_accessor :individual_packaged_meals
-        alias_method :individual_packaged_meals?, :individual_packaged_meals
+        alias individual_packaged_meals? individual_packaged_meals
 
         # Individual packaged meals exception.
         # Corresponds to the JSON property `individualPackagedMealsException`
@@ -2880,7 +2880,7 @@ module Google
         # Corresponds to the JSON property `singleUseFoodMenus`
         # @return [Boolean]
         attr_accessor :single_use_food_menus
-        alias_method :single_use_food_menus?, :single_use_food_menus
+        alias single_use_food_menus? single_use_food_menus
 
         # Single use food menus exception.
         # Corresponds to the JSON property `singleUseFoodMenusException`
@@ -3084,7 +3084,7 @@ module Google
         # Corresponds to the JSON property `arabicSpoken`
         # @return [Boolean]
         attr_accessor :arabic_spoken
-        alias_method :arabic_spoken?, :arabic_spoken
+        alias arabic_spoken? arabic_spoken
 
         # Arabic exception.
         # Corresponds to the JSON property `arabicSpokenException`
@@ -3095,7 +3095,7 @@ module Google
         # Corresponds to the JSON property `cantoneseSpoken`
         # @return [Boolean]
         attr_accessor :cantonese_spoken
-        alias_method :cantonese_spoken?, :cantonese_spoken
+        alias cantonese_spoken? cantonese_spoken
 
         # Cantonese exception.
         # Corresponds to the JSON property `cantoneseSpokenException`
@@ -3106,7 +3106,7 @@ module Google
         # Corresponds to the JSON property `dutchSpoken`
         # @return [Boolean]
         attr_accessor :dutch_spoken
-        alias_method :dutch_spoken?, :dutch_spoken
+        alias dutch_spoken? dutch_spoken
 
         # Dutch exception.
         # Corresponds to the JSON property `dutchSpokenException`
@@ -3117,7 +3117,7 @@ module Google
         # Corresponds to the JSON property `englishSpoken`
         # @return [Boolean]
         attr_accessor :english_spoken
-        alias_method :english_spoken?, :english_spoken
+        alias english_spoken? english_spoken
 
         # English exception.
         # Corresponds to the JSON property `englishSpokenException`
@@ -3128,7 +3128,7 @@ module Google
         # Corresponds to the JSON property `filipinoSpoken`
         # @return [Boolean]
         attr_accessor :filipino_spoken
-        alias_method :filipino_spoken?, :filipino_spoken
+        alias filipino_spoken? filipino_spoken
 
         # Filipino exception.
         # Corresponds to the JSON property `filipinoSpokenException`
@@ -3139,7 +3139,7 @@ module Google
         # Corresponds to the JSON property `frenchSpoken`
         # @return [Boolean]
         attr_accessor :french_spoken
-        alias_method :french_spoken?, :french_spoken
+        alias french_spoken? french_spoken
 
         # French exception.
         # Corresponds to the JSON property `frenchSpokenException`
@@ -3150,7 +3150,7 @@ module Google
         # Corresponds to the JSON property `germanSpoken`
         # @return [Boolean]
         attr_accessor :german_spoken
-        alias_method :german_spoken?, :german_spoken
+        alias german_spoken? german_spoken
 
         # German exception.
         # Corresponds to the JSON property `germanSpokenException`
@@ -3161,7 +3161,7 @@ module Google
         # Corresponds to the JSON property `hindiSpoken`
         # @return [Boolean]
         attr_accessor :hindi_spoken
-        alias_method :hindi_spoken?, :hindi_spoken
+        alias hindi_spoken? hindi_spoken
 
         # Hindi exception.
         # Corresponds to the JSON property `hindiSpokenException`
@@ -3172,7 +3172,7 @@ module Google
         # Corresponds to the JSON property `indonesianSpoken`
         # @return [Boolean]
         attr_accessor :indonesian_spoken
-        alias_method :indonesian_spoken?, :indonesian_spoken
+        alias indonesian_spoken? indonesian_spoken
 
         # Indonesian exception.
         # Corresponds to the JSON property `indonesianSpokenException`
@@ -3183,7 +3183,7 @@ module Google
         # Corresponds to the JSON property `italianSpoken`
         # @return [Boolean]
         attr_accessor :italian_spoken
-        alias_method :italian_spoken?, :italian_spoken
+        alias italian_spoken? italian_spoken
 
         # Italian exception.
         # Corresponds to the JSON property `italianSpokenException`
@@ -3194,7 +3194,7 @@ module Google
         # Corresponds to the JSON property `japaneseSpoken`
         # @return [Boolean]
         attr_accessor :japanese_spoken
-        alias_method :japanese_spoken?, :japanese_spoken
+        alias japanese_spoken? japanese_spoken
 
         # Japanese exception.
         # Corresponds to the JSON property `japaneseSpokenException`
@@ -3205,7 +3205,7 @@ module Google
         # Corresponds to the JSON property `koreanSpoken`
         # @return [Boolean]
         attr_accessor :korean_spoken
-        alias_method :korean_spoken?, :korean_spoken
+        alias korean_spoken? korean_spoken
 
         # Korean exception.
         # Corresponds to the JSON property `koreanSpokenException`
@@ -3216,7 +3216,7 @@ module Google
         # Corresponds to the JSON property `mandarinSpoken`
         # @return [Boolean]
         attr_accessor :mandarin_spoken
-        alias_method :mandarin_spoken?, :mandarin_spoken
+        alias mandarin_spoken? mandarin_spoken
 
         # Mandarin exception.
         # Corresponds to the JSON property `mandarinSpokenException`
@@ -3227,7 +3227,7 @@ module Google
         # Corresponds to the JSON property `portugueseSpoken`
         # @return [Boolean]
         attr_accessor :portuguese_spoken
-        alias_method :portuguese_spoken?, :portuguese_spoken
+        alias portuguese_spoken? portuguese_spoken
 
         # Portuguese exception.
         # Corresponds to the JSON property `portugueseSpokenException`
@@ -3238,7 +3238,7 @@ module Google
         # Corresponds to the JSON property `russianSpoken`
         # @return [Boolean]
         attr_accessor :russian_spoken
-        alias_method :russian_spoken?, :russian_spoken
+        alias russian_spoken? russian_spoken
 
         # Russian exception.
         # Corresponds to the JSON property `russianSpokenException`
@@ -3249,7 +3249,7 @@ module Google
         # Corresponds to the JSON property `spanishSpoken`
         # @return [Boolean]
         attr_accessor :spanish_spoken
-        alias_method :spanish_spoken?, :spanish_spoken
+        alias spanish_spoken? spanish_spoken
 
         # Spanish exception.
         # Corresponds to the JSON property `spanishSpokenException`
@@ -3260,7 +3260,7 @@ module Google
         # Corresponds to the JSON property `vietnameseSpoken`
         # @return [Boolean]
         attr_accessor :vietnamese_spoken
-        alias_method :vietnamese_spoken?, :vietnamese_spoken
+        alias vietnamese_spoken? vietnamese_spoken
 
         # Vietnamese exception.
         # Corresponds to the JSON property `vietnameseSpokenException`
@@ -3711,14 +3711,14 @@ module Google
       end
 
       # Response message for GoogleLocations.ListRecommendedGoogleLocations. It also
-      # contains some locations that have been claimed by other GMB users since the
-      # last time they were recommended to this GMB account.
+      # contains some locations that have been claimed by other Business Profile users
+      # since the last time they were recommended to this Business Profile account.
       class ListRecommendedGoogleLocationsResponse
         include Google::Apis::Core::Hashable
 
-        # The locations recommended to a GMB account. Each of these represents a
-        # GoogleLocation that is present on Maps. The locations are sorted in decreasing
-        # order of relevance to the GMB account.
+        # The locations recommended to a Business Profile account. Each of these
+        # represents a GoogleLocation that is present on Maps. The locations are sorted
+        # in decreasing order of relevance to the Business Profile account.
         # Corresponds to the JSON property `googleLocations`
         # @return [Array<Google::Apis::MybusinessV4::GoogleLocation>]
         attr_accessor :google_locations
@@ -3731,8 +3731,8 @@ module Google
         # @return [String]
         attr_accessor :next_page_token
 
-        # The total number of recommended locations for this GMB account, irrespective
-        # of pagination.
+        # The total number of recommended locations for this Business Profile account,
+        # irrespective of pagination.
         # Corresponds to the JSON property `totalSize`
         # @return [Fixnum]
         attr_accessor :total_size
@@ -3874,7 +3874,7 @@ module Google
         # Corresponds to the JSON property `adaCompliantUnit`
         # @return [Boolean]
         attr_accessor :ada_compliant_unit
-        alias_method :ada_compliant_unit?, :ada_compliant_unit
+        alias ada_compliant_unit? ada_compliant_unit
 
         # ADA compliant unit exception.
         # Corresponds to the JSON property `adaCompliantUnitException`
@@ -3886,7 +3886,7 @@ module Google
         # Corresponds to the JSON property `hearingAccessibleDoorbell`
         # @return [Boolean]
         attr_accessor :hearing_accessible_doorbell
-        alias_method :hearing_accessible_doorbell?, :hearing_accessible_doorbell
+        alias hearing_accessible_doorbell? hearing_accessible_doorbell
 
         # Hearing-accessible doorbell exception.
         # Corresponds to the JSON property `hearingAccessibleDoorbellException`
@@ -3898,7 +3898,7 @@ module Google
         # Corresponds to the JSON property `hearingAccessibleFireAlarm`
         # @return [Boolean]
         attr_accessor :hearing_accessible_fire_alarm
-        alias_method :hearing_accessible_fire_alarm?, :hearing_accessible_fire_alarm
+        alias hearing_accessible_fire_alarm? hearing_accessible_fire_alarm
 
         # Hearing-accessible fire alarm exception.
         # Corresponds to the JSON property `hearingAccessibleFireAlarmException`
@@ -3910,7 +3910,7 @@ module Google
         # Corresponds to the JSON property `hearingAccessibleUnit`
         # @return [Boolean]
         attr_accessor :hearing_accessible_unit
-        alias_method :hearing_accessible_unit?, :hearing_accessible_unit
+        alias hearing_accessible_unit? hearing_accessible_unit
 
         # Hearing-accessible unit exception.
         # Corresponds to the JSON property `hearingAccessibleUnitException`
@@ -3923,7 +3923,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleBathtub`
         # @return [Boolean]
         attr_accessor :mobility_accessible_bathtub
-        alias_method :mobility_accessible_bathtub?, :mobility_accessible_bathtub
+        alias mobility_accessible_bathtub? mobility_accessible_bathtub
 
         # Mobility-accessible bathtub exception.
         # Corresponds to the JSON property `mobilityAccessibleBathtubException`
@@ -3935,7 +3935,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleShower`
         # @return [Boolean]
         attr_accessor :mobility_accessible_shower
-        alias_method :mobility_accessible_shower?, :mobility_accessible_shower
+        alias mobility_accessible_shower? mobility_accessible_shower
 
         # Mobility-accessible shower exception.
         # Corresponds to the JSON property `mobilityAccessibleShowerException`
@@ -3947,7 +3947,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleToilet`
         # @return [Boolean]
         attr_accessor :mobility_accessible_toilet
-        alias_method :mobility_accessible_toilet?, :mobility_accessible_toilet
+        alias mobility_accessible_toilet? mobility_accessible_toilet
 
         # Mobility-accessible toilet exception.
         # Corresponds to the JSON property `mobilityAccessibleToiletException`
@@ -3961,7 +3961,7 @@ module Google
         # Corresponds to the JSON property `mobilityAccessibleUnit`
         # @return [Boolean]
         attr_accessor :mobility_accessible_unit
-        alias_method :mobility_accessible_unit?, :mobility_accessible_unit
+        alias mobility_accessible_unit? mobility_accessible_unit
 
         # Mobility-accessible unit exception.
         # Corresponds to the JSON property `mobilityAccessibleUnitException`
@@ -4002,7 +4002,7 @@ module Google
         # Corresponds to the JSON property `coffeeMaker`
         # @return [Boolean]
         attr_accessor :coffee_maker
-        alias_method :coffee_maker?, :coffee_maker
+        alias coffee_maker? coffee_maker
 
         # Coffee maker exception.
         # Corresponds to the JSON property `coffeeMakerException`
@@ -4014,7 +4014,7 @@ module Google
         # Corresponds to the JSON property `cookware`
         # @return [Boolean]
         attr_accessor :cookware
-        alias_method :cookware?, :cookware
+        alias cookware? cookware
 
         # Cookware exception.
         # Corresponds to the JSON property `cookwareException`
@@ -4028,7 +4028,7 @@ module Google
         # Corresponds to the JSON property `dishwasher`
         # @return [Boolean]
         attr_accessor :dishwasher
-        alias_method :dishwasher?, :dishwasher
+        alias dishwasher? dishwasher
 
         # Dishwasher exception.
         # Corresponds to the JSON property `dishwasherException`
@@ -4040,7 +4040,7 @@ module Google
         # Corresponds to the JSON property `indoorGrill`
         # @return [Boolean]
         attr_accessor :indoor_grill
-        alias_method :indoor_grill?, :indoor_grill
+        alias indoor_grill? indoor_grill
 
         # Indoor grill exception.
         # Corresponds to the JSON property `indoorGrillException`
@@ -4051,7 +4051,7 @@ module Google
         # Corresponds to the JSON property `kettle`
         # @return [Boolean]
         attr_accessor :kettle
-        alias_method :kettle?, :kettle
+        alias kettle? kettle
 
         # Kettle exception.
         # Corresponds to the JSON property `kettleException`
@@ -4066,7 +4066,7 @@ module Google
         # Corresponds to the JSON property `kitchenAvailable`
         # @return [Boolean]
         attr_accessor :kitchen_available
-        alias_method :kitchen_available?, :kitchen_available
+        alias kitchen_available? kitchen_available
 
         # Kitchen available exception.
         # Corresponds to the JSON property `kitchenAvailableException`
@@ -4079,7 +4079,7 @@ module Google
         # Corresponds to the JSON property `microwave`
         # @return [Boolean]
         attr_accessor :microwave
-        alias_method :microwave?, :microwave
+        alias microwave? microwave
 
         # Microwave exception.
         # Corresponds to the JSON property `microwaveException`
@@ -4092,7 +4092,7 @@ module Google
         # Corresponds to the JSON property `minibar`
         # @return [Boolean]
         attr_accessor :minibar
-        alias_method :minibar?, :minibar
+        alias minibar? minibar
 
         # Minibar exception.
         # Corresponds to the JSON property `minibarException`
@@ -4105,7 +4105,7 @@ module Google
         # Corresponds to the JSON property `outdoorGrill`
         # @return [Boolean]
         attr_accessor :outdoor_grill
-        alias_method :outdoor_grill?, :outdoor_grill
+        alias outdoor_grill? outdoor_grill
 
         # Outdoor grill exception.
         # Corresponds to the JSON property `outdoorGrillException`
@@ -4117,7 +4117,7 @@ module Google
         # Corresponds to the JSON property `oven`
         # @return [Boolean]
         attr_accessor :oven
-        alias_method :oven?, :oven
+        alias oven? oven
 
         # Oven exception.
         # Corresponds to the JSON property `ovenException`
@@ -4129,7 +4129,7 @@ module Google
         # Corresponds to the JSON property `refrigerator`
         # @return [Boolean]
         attr_accessor :refrigerator
-        alias_method :refrigerator?, :refrigerator
+        alias refrigerator? refrigerator
 
         # Refrigerator exception.
         # Corresponds to the JSON property `refrigeratorException`
@@ -4141,7 +4141,7 @@ module Google
         # Corresponds to the JSON property `sink`
         # @return [Boolean]
         attr_accessor :sink
-        alias_method :sink?, :sink
+        alias sink? sink
 
         # Sink exception.
         # Corresponds to the JSON property `sinkException`
@@ -4153,7 +4153,7 @@ module Google
         # Corresponds to the JSON property `snackbar`
         # @return [Boolean]
         attr_accessor :snackbar
-        alias_method :snackbar?, :snackbar
+        alias snackbar? snackbar
 
         # Snackbar exception.
         # Corresponds to the JSON property `snackbarException`
@@ -4166,7 +4166,7 @@ module Google
         # Corresponds to the JSON property `stove`
         # @return [Boolean]
         attr_accessor :stove
-        alias_method :stove?, :stove
+        alias stove? stove
 
         # Stove exception.
         # Corresponds to the JSON property `stoveException`
@@ -4177,7 +4177,7 @@ module Google
         # Corresponds to the JSON property `teaStation`
         # @return [Boolean]
         attr_accessor :tea_station
-        alias_method :tea_station?, :tea_station
+        alias tea_station? tea_station
 
         # Tea station exception.
         # Corresponds to the JSON property `teaStationException`
@@ -4190,7 +4190,7 @@ module Google
         # Corresponds to the JSON property `toaster`
         # @return [Boolean]
         attr_accessor :toaster
-        alias_method :toaster?, :toaster
+        alias toaster? toaster
 
         # Toaster exception.
         # Corresponds to the JSON property `toasterException`
@@ -4247,7 +4247,7 @@ module Google
         # Corresponds to the JSON property `airConditioning`
         # @return [Boolean]
         attr_accessor :air_conditioning
-        alias_method :air_conditioning?, :air_conditioning
+        alias air_conditioning? air_conditioning
 
         # Air conditioning exception.
         # Corresponds to the JSON property `airConditioningException`
@@ -4262,7 +4262,7 @@ module Google
         # Corresponds to the JSON property `bathtub`
         # @return [Boolean]
         attr_accessor :bathtub
-        alias_method :bathtub?, :bathtub
+        alias bathtub? bathtub
 
         # Bathtub exception.
         # Corresponds to the JSON property `bathtubException`
@@ -4274,7 +4274,7 @@ module Google
         # Corresponds to the JSON property `bidet`
         # @return [Boolean]
         attr_accessor :bidet
-        alias_method :bidet?, :bidet
+        alias bidet? bidet
 
         # Bidet exception.
         # Corresponds to the JSON property `bidetException`
@@ -4285,7 +4285,7 @@ module Google
         # Corresponds to the JSON property `dryer`
         # @return [Boolean]
         attr_accessor :dryer
-        alias_method :dryer?, :dryer
+        alias dryer? dryer
 
         # Dryer exception.
         # Corresponds to the JSON property `dryerException`
@@ -4297,7 +4297,7 @@ module Google
         # Corresponds to the JSON property `electronicRoomKey`
         # @return [Boolean]
         attr_accessor :electronic_room_key
-        alias_method :electronic_room_key?, :electronic_room_key
+        alias electronic_room_key? electronic_room_key
 
         # Electronic room key exception.
         # Corresponds to the JSON property `electronicRoomKeyException`
@@ -4310,7 +4310,7 @@ module Google
         # Corresponds to the JSON property `fireplace`
         # @return [Boolean]
         attr_accessor :fireplace
-        alias_method :fireplace?, :fireplace
+        alias fireplace? fireplace
 
         # Fireplace exception.
         # Corresponds to the JSON property `fireplaceException`
@@ -4323,7 +4323,7 @@ module Google
         # Corresponds to the JSON property `hairdryer`
         # @return [Boolean]
         attr_accessor :hairdryer
-        alias_method :hairdryer?, :hairdryer
+        alias hairdryer? hairdryer
 
         # Hairdryer exception.
         # Corresponds to the JSON property `hairdryerException`
@@ -4334,7 +4334,7 @@ module Google
         # Corresponds to the JSON property `heating`
         # @return [Boolean]
         attr_accessor :heating
-        alias_method :heating?, :heating
+        alias heating? heating
 
         # Heating exception.
         # Corresponds to the JSON property `heatingException`
@@ -4346,7 +4346,7 @@ module Google
         # Corresponds to the JSON property `inunitSafe`
         # @return [Boolean]
         attr_accessor :inunit_safe
-        alias_method :inunit_safe?, :inunit_safe
+        alias inunit_safe? inunit_safe
 
         # In-unit safe exception.
         # Corresponds to the JSON property `inunitSafeException`
@@ -4358,7 +4358,7 @@ module Google
         # Corresponds to the JSON property `inunitWifiAvailable`
         # @return [Boolean]
         attr_accessor :inunit_wifi_available
-        alias_method :inunit_wifi_available?, :inunit_wifi_available
+        alias inunit_wifi_available? inunit_wifi_available
 
         # In-unit Wifi available exception.
         # Corresponds to the JSON property `inunitWifiAvailableException`
@@ -4371,7 +4371,7 @@ module Google
         # Corresponds to the JSON property `ironingEquipment`
         # @return [Boolean]
         attr_accessor :ironing_equipment
-        alias_method :ironing_equipment?, :ironing_equipment
+        alias ironing_equipment? ironing_equipment
 
         # Ironing equipment exception.
         # Corresponds to the JSON property `ironingEquipmentException`
@@ -4384,7 +4384,7 @@ module Google
         # Corresponds to the JSON property `payPerViewMovies`
         # @return [Boolean]
         attr_accessor :pay_per_view_movies
-        alias_method :pay_per_view_movies?, :pay_per_view_movies
+        alias pay_per_view_movies? pay_per_view_movies
 
         # Pay per view movies exception.
         # Corresponds to the JSON property `payPerViewMoviesException`
@@ -4396,7 +4396,7 @@ module Google
         # Corresponds to the JSON property `privateBathroom`
         # @return [Boolean]
         attr_accessor :private_bathroom
-        alias_method :private_bathroom?, :private_bathroom
+        alias private_bathroom? private_bathroom
 
         # Private bathroom exception.
         # Corresponds to the JSON property `privateBathroomException`
@@ -4409,7 +4409,7 @@ module Google
         # Corresponds to the JSON property `shower`
         # @return [Boolean]
         attr_accessor :shower
-        alias_method :shower?, :shower
+        alias shower? shower
 
         # Shower exception.
         # Corresponds to the JSON property `showerException`
@@ -4423,7 +4423,7 @@ module Google
         # Corresponds to the JSON property `toilet`
         # @return [Boolean]
         attr_accessor :toilet
-        alias_method :toilet?, :toilet
+        alias toilet? toilet
 
         # Toilet exception.
         # Corresponds to the JSON property `toiletException`
@@ -4434,7 +4434,7 @@ module Google
         # Corresponds to the JSON property `tv`
         # @return [Boolean]
         attr_accessor :tv
-        alias_method :tv?, :tv
+        alias tv? tv
 
         # TV casting. A television equipped with a device through which the video
         # entertainment accessed on a personal computer, phone or tablet can be
@@ -4442,7 +4442,7 @@ module Google
         # Corresponds to the JSON property `tvCasting`
         # @return [Boolean]
         attr_accessor :tv_casting
-        alias_method :tv_casting?, :tv_casting
+        alias tv_casting? tv_casting
 
         # TV exception.
         # Corresponds to the JSON property `tvCastingException`
@@ -4459,7 +4459,7 @@ module Google
         # Corresponds to the JSON property `tvStreaming`
         # @return [Boolean]
         attr_accessor :tv_streaming
-        alias_method :tv_streaming?, :tv_streaming
+        alias tv_streaming? tv_streaming
 
         # TV streaming exception.
         # Corresponds to the JSON property `tvStreamingException`
@@ -4472,7 +4472,7 @@ module Google
         # Corresponds to the JSON property `universalPowerAdapters`
         # @return [Boolean]
         attr_accessor :universal_power_adapters
-        alias_method :universal_power_adapters?, :universal_power_adapters
+        alias universal_power_adapters? universal_power_adapters
 
         # Universal power adapters exception.
         # Corresponds to the JSON property `universalPowerAdaptersException`
@@ -4484,7 +4484,7 @@ module Google
         # Corresponds to the JSON property `washer`
         # @return [Boolean]
         attr_accessor :washer
-        alias_method :washer?, :washer
+        alias washer? washer
 
         # Washer exception.
         # Corresponds to the JSON property `washerException`
@@ -4552,7 +4552,7 @@ module Google
         # Corresponds to the JSON property `balcony`
         # @return [Boolean]
         attr_accessor :balcony
-        alias_method :balcony?, :balcony
+        alias balcony? balcony
 
         # Balcony exception.
         # Corresponds to the JSON property `balconyException`
@@ -4575,7 +4575,7 @@ module Google
         # Corresponds to the JSON property `loft`
         # @return [Boolean]
         attr_accessor :loft
-        alias_method :loft?, :loft
+        alias loft? loft
 
         # Loft exception.
         # Corresponds to the JSON property `loftException`
@@ -4587,7 +4587,7 @@ module Google
         # Corresponds to the JSON property `nonSmoking`
         # @return [Boolean]
         attr_accessor :non_smoking
-        alias_method :non_smoking?, :non_smoking
+        alias non_smoking? non_smoking
 
         # Non smoking exception.
         # Corresponds to the JSON property `nonSmokingException`
@@ -4599,7 +4599,7 @@ module Google
         # Corresponds to the JSON property `patio`
         # @return [Boolean]
         attr_accessor :patio
-        alias_method :patio?, :patio
+        alias patio? patio
 
         # Patio exception.
         # Corresponds to the JSON property `patioException`
@@ -4610,7 +4610,7 @@ module Google
         # Corresponds to the JSON property `stairs`
         # @return [Boolean]
         attr_accessor :stairs
-        alias_method :stairs?, :stairs
+        alias stairs? stairs
 
         # Stairs exception.
         # Corresponds to the JSON property `stairsException`
@@ -4694,7 +4694,7 @@ module Google
         # Corresponds to the JSON property `featherPillows`
         # @return [Boolean]
         attr_accessor :feather_pillows
-        alias_method :feather_pillows?, :feather_pillows
+        alias feather_pillows? feather_pillows
 
         # Feather pillows exception.
         # Corresponds to the JSON property `featherPillowsException`
@@ -4707,7 +4707,7 @@ module Google
         # Corresponds to the JSON property `hypoallergenicBedding`
         # @return [Boolean]
         attr_accessor :hypoallergenic_bedding
-        alias_method :hypoallergenic_bedding?, :hypoallergenic_bedding
+        alias hypoallergenic_bedding? hypoallergenic_bedding
 
         # Hypoallergenic bedding exception.
         # Corresponds to the JSON property `hypoallergenicBeddingException`
@@ -4732,7 +4732,7 @@ module Google
         # Corresponds to the JSON property `memoryFoamPillows`
         # @return [Boolean]
         attr_accessor :memory_foam_pillows
-        alias_method :memory_foam_pillows?, :memory_foam_pillows
+        alias memory_foam_pillows? memory_foam_pillows
 
         # Memory foam pillows exception.
         # Corresponds to the JSON property `memoryFoamPillowsException`
@@ -4803,7 +4803,7 @@ module Google
         # Corresponds to the JSON property `syntheticPillows`
         # @return [Boolean]
         attr_accessor :synthetic_pillows
-        alias_method :synthetic_pillows?, :synthetic_pillows
+        alias synthetic_pillows? synthetic_pillows
 
         # Synthetic pillows exception.
         # Corresponds to the JSON property `syntheticPillowsException`
@@ -5302,7 +5302,7 @@ module Google
         # Corresponds to the JSON property `explicitNoPlaceId`
         # @return [Boolean]
         attr_accessor :explicit_no_place_id
-        alias_method :explicit_no_place_id?, :explicit_no_place_id
+        alias explicit_no_place_id? explicit_no_place_id
 
         # If this location has been verified and is connected to/appears on Google Maps,
         # this field is populated with the place ID for the location. This ID can be
@@ -5322,8 +5322,8 @@ module Google
         attr_accessor :plus_page_id
 
         # Output only. The `request_id` used to create this location. May be empty if
-        # this location was created outside of the GMB API or Google My Business
-        # Locations.
+        # this location was created outside of the Google My Business API or Business
+        # Profile Locations.
         # Corresponds to the JSON property `requestId`
         # @return [String]
         attr_accessor :request_id
@@ -5408,95 +5408,95 @@ module Google
         # Corresponds to the JSON property `canDelete`
         # @return [Boolean]
         attr_accessor :can_delete
-        alias_method :can_delete?, :can_delete
+        alias can_delete? can_delete
 
         # Output only. Indicates if the listing is eligible for food menu.
         # Corresponds to the JSON property `canHaveFoodMenus`
         # @return [Boolean]
         attr_accessor :can_have_food_menus
-        alias_method :can_have_food_menus?, :can_have_food_menus
+        alias can_have_food_menus? can_have_food_menus
 
         # Output only. Indicates if the listing can modify a ServiceList.
         # Corresponds to the JSON property `canModifyServiceList`
         # @return [Boolean]
         attr_accessor :can_modify_service_list
-        alias_method :can_modify_service_list?, :can_modify_service_list
+        alias can_modify_service_list? can_modify_service_list
 
         # Output only. Indicates whether the location can operate on Health data.
         # Corresponds to the JSON property `canOperateHealthData`
         # @return [Boolean]
         attr_accessor :can_operate_health_data
-        alias_method :can_operate_health_data?, :can_operate_health_data
+        alias can_operate_health_data? can_operate_health_data
 
         # Output only. Indicates whether the location can operate on Lodging data.
         # Corresponds to the JSON property `canOperateLodgingData`
         # @return [Boolean]
         attr_accessor :can_operate_lodging_data
-        alias_method :can_operate_lodging_data?, :can_operate_lodging_data
+        alias can_operate_lodging_data? can_operate_lodging_data
 
         # Output only. Indicates whether the location can be updated.
         # Corresponds to the JSON property `canUpdate`
         # @return [Boolean]
         attr_accessor :can_update
-        alias_method :can_update?, :can_update
+        alias can_update? can_update
 
         # Output only. Indicates whether any of this Location's properties are in the
         # edit pending state.
         # Corresponds to the JSON property `hasPendingEdits`
         # @return [Boolean]
         attr_accessor :has_pending_edits
-        alias_method :has_pending_edits?, :has_pending_edits
+        alias has_pending_edits? has_pending_edits
 
         # Output only. Indicates whether the location has pending verification requests.
         # Corresponds to the JSON property `hasPendingVerification`
         # @return [Boolean]
         attr_accessor :has_pending_verification
-        alias_method :has_pending_verification?, :has_pending_verification
+        alias has_pending_verification? has_pending_verification
 
         # Output only. Indicates whether the location is disabled.
         # Corresponds to the JSON property `isDisabled`
         # @return [Boolean]
         attr_accessor :is_disabled
-        alias_method :is_disabled?, :is_disabled
+        alias is_disabled? is_disabled
 
         # Output only. Indicates whether the location is disconnected from a place on
         # Google Maps.
         # Corresponds to the JSON property `isDisconnected`
         # @return [Boolean]
         attr_accessor :is_disconnected
-        alias_method :is_disconnected?, :is_disconnected
+        alias is_disconnected? is_disconnected
 
         # Output only. Indicates whether the location is a duplicate of another location.
         # Corresponds to the JSON property `isDuplicate`
         # @return [Boolean]
         attr_accessor :is_duplicate
-        alias_method :is_duplicate?, :is_duplicate
+        alias is_duplicate? is_duplicate
 
         # Output only. Indicates whether the place ID associated with this location has
         # updates.
         # Corresponds to the JSON property `isGoogleUpdated`
         # @return [Boolean]
         attr_accessor :is_google_updated
-        alias_method :is_google_updated?, :is_google_updated
+        alias is_google_updated? is_google_updated
 
         # Output only. Indicates whether [accounts.locations.localPosts](/my-business/
         # reference/rest/v4/accounts.locations.localPosts) is disabled for this location.
         # Corresponds to the JSON property `isLocalPostApiDisabled`
         # @return [Boolean]
         attr_accessor :is_local_post_api_disabled
-        alias_method :is_local_post_api_disabled?, :is_local_post_api_disabled
+        alias is_local_post_api_disabled? is_local_post_api_disabled
 
         # Output only. Indicates whether the review of the location is pending.
         # Corresponds to the JSON property `isPendingReview`
         # @return [Boolean]
         attr_accessor :is_pending_review
-        alias_method :is_pending_review?, :is_pending_review
+        alias is_pending_review? is_pending_review
 
         # Output only. Indicates whether the location is published.
         # Corresponds to the JSON property `isPublished`
         # @return [Boolean]
         attr_accessor :is_published
-        alias_method :is_published?, :is_published
+        alias is_published? is_published
 
         # Output only. Indicates whether the location is suspended. Suspended locations
         # are not visible to end users in Google products. If you believe this was a
@@ -5505,19 +5505,19 @@ module Google
         # Corresponds to the JSON property `isSuspended`
         # @return [Boolean]
         attr_accessor :is_suspended
-        alias_method :is_suspended?, :is_suspended
+        alias is_suspended? is_suspended
 
         # Output only. Indicates whether the location is verified.
         # Corresponds to the JSON property `isVerified`
         # @return [Boolean]
         attr_accessor :is_verified
-        alias_method :is_verified?, :is_verified
+        alias is_verified? is_verified
 
         # Output only. Indicates whether the location requires reverification.
         # Corresponds to the JSON property `needsReverification`
         # @return [Boolean]
         attr_accessor :needs_reverification
-        alias_method :needs_reverification?, :needs_reverification
+        alias needs_reverification? needs_reverification
 
         def initialize(**args)
           update!(**args)
@@ -5727,7 +5727,7 @@ module Google
         # Corresponds to the JSON property `isExactMatch`
         # @return [Boolean]
         attr_accessor :is_exact_match
-        alias_method :is_exact_match?, :is_exact_match
+        alias is_exact_match? is_exact_match
 
         # A location. See the [help center article] (https://support.google.com/business/
         # answer/3038177) for a detailed description of these fields, or the [category
@@ -5782,17 +5782,17 @@ module Google
         # @return [String]
         attr_accessor :create_time
 
-        # Reference to the photo binary data of a `MediaItem` uploaded through the My
-        # Business API. Create a data ref using StartUploadMediaItemData, and use this
-        # ref when uploading bytes to [UpdateMedia] and subsequently calling
+        # Reference to the photo binary data of a `MediaItem` uploaded through the
+        # Google My Business API. Create a data ref using StartUploadMediaItemData, and
+        # use this ref when uploading bytes to [UpdateMedia] and subsequently calling
         # CreateMediaItem.
         # Corresponds to the JSON property `dataRef`
         # @return [Google::Apis::MybusinessV4::MediaItemDataRef]
         attr_accessor :data_ref
 
         # Description for this media item. Descriptions cannot be modified through the
-        # My Business API, but can be set when creating a new media item that is not a
-        # cover photo.
+        # Google My Business API, but can be set when creating a new media item that is
+        # not a cover photo.
         # Corresponds to the JSON property `description`
         # @return [String]
         attr_accessor :description
@@ -5866,9 +5866,9 @@ module Google
         end
       end
 
-      # Reference to the photo binary data of a `MediaItem` uploaded through the My
-      # Business API. Create a data ref using StartUploadMediaItemData, and use this
-      # ref when uploading bytes to [UpdateMedia] and subsequently calling
+      # Reference to the photo binary data of a `MediaItem` uploaded through the
+      # Google My Business API. Create a data ref using StartUploadMediaItemData, and
+      # use this ref when uploading bytes to [UpdateMedia] and subsequently calling
       # CreateMediaItem.
       class MediaItemDataRef
         include Google::Apis::Core::Hashable
@@ -6021,7 +6021,7 @@ module Google
         # Corresponds to the JSON property `contactlessCheckinCheckout`
         # @return [Boolean]
         attr_accessor :contactless_checkin_checkout
-        alias_method :contactless_checkin_checkout?, :contactless_checkin_checkout
+        alias contactless_checkin_checkout? contactless_checkin_checkout
 
         # Contactless check-in check-out exception.
         # Corresponds to the JSON property `contactlessCheckinCheckoutException`
@@ -6032,7 +6032,7 @@ module Google
         # Corresponds to the JSON property `digitalGuestRoomKeys`
         # @return [Boolean]
         attr_accessor :digital_guest_room_keys
-        alias_method :digital_guest_room_keys?, :digital_guest_room_keys
+        alias digital_guest_room_keys? digital_guest_room_keys
 
         # Digital guest room keys exception.
         # Corresponds to the JSON property `digitalGuestRoomKeysException`
@@ -6043,7 +6043,7 @@ module Google
         # Corresponds to the JSON property `housekeepingScheduledRequestOnly`
         # @return [Boolean]
         attr_accessor :housekeeping_scheduled_request_only
-        alias_method :housekeeping_scheduled_request_only?, :housekeeping_scheduled_request_only
+        alias housekeeping_scheduled_request_only? housekeeping_scheduled_request_only
 
         # Housekeeping scheduled request only exception.
         # Corresponds to the JSON property `housekeepingScheduledRequestOnlyException`
@@ -6054,7 +6054,7 @@ module Google
         # Corresponds to the JSON property `noHighTouchItemsCommonAreas`
         # @return [Boolean]
         attr_accessor :no_high_touch_items_common_areas
-        alias_method :no_high_touch_items_common_areas?, :no_high_touch_items_common_areas
+        alias no_high_touch_items_common_areas? no_high_touch_items_common_areas
 
         # No high touch items common areas exception.
         # Corresponds to the JSON property `noHighTouchItemsCommonAreasException`
@@ -6065,7 +6065,7 @@ module Google
         # Corresponds to the JSON property `noHighTouchItemsGuestRooms`
         # @return [Boolean]
         attr_accessor :no_high_touch_items_guest_rooms
-        alias_method :no_high_touch_items_guest_rooms?, :no_high_touch_items_guest_rooms
+        alias no_high_touch_items_guest_rooms? no_high_touch_items_guest_rooms
 
         # No high touch items guest rooms exception.
         # Corresponds to the JSON property `noHighTouchItemsGuestRoomsException`
@@ -6076,7 +6076,7 @@ module Google
         # Corresponds to the JSON property `plasticKeycardsDisinfected`
         # @return [Boolean]
         attr_accessor :plastic_keycards_disinfected
-        alias_method :plastic_keycards_disinfected?, :plastic_keycards_disinfected
+        alias plastic_keycards_disinfected? plastic_keycards_disinfected
 
         # Plastic keycards disinfected exception.
         # Corresponds to the JSON property `plasticKeycardsDisinfectedException`
@@ -6087,7 +6087,7 @@ module Google
         # Corresponds to the JSON property `roomBookingsBuffer`
         # @return [Boolean]
         attr_accessor :room_bookings_buffer
-        alias_method :room_bookings_buffer?, :room_bookings_buffer
+        alias room_bookings_buffer? room_bookings_buffer
 
         # Room bookings buffer exception.
         # Corresponds to the JSON property `roomBookingsBufferException`
@@ -6351,7 +6351,7 @@ module Google
         # Corresponds to the JSON property `canReopen`
         # @return [Boolean]
         attr_accessor :can_reopen
-        alias_method :can_reopen?, :can_reopen
+        alias can_reopen? can_reopen
 
         # Represents a whole or partial calendar date, such as a birthday. The time of
         # day and time zone are either specified elsewhere or are insignificant. The
@@ -6432,7 +6432,7 @@ module Google
         # Corresponds to the JSON property `electricCarChargingStations`
         # @return [Boolean]
         attr_accessor :electric_car_charging_stations
-        alias_method :electric_car_charging_stations?, :electric_car_charging_stations
+        alias electric_car_charging_stations? electric_car_charging_stations
 
         # Electric car charging stations exception.
         # Corresponds to the JSON property `electricCarChargingStationsException`
@@ -6447,7 +6447,7 @@ module Google
         # Corresponds to the JSON property `freeParking`
         # @return [Boolean]
         attr_accessor :free_parking
-        alias_method :free_parking?, :free_parking
+        alias free_parking? free_parking
 
         # Free parking exception.
         # Corresponds to the JSON property `freeParkingException`
@@ -6460,7 +6460,7 @@ module Google
         # Corresponds to the JSON property `freeSelfParking`
         # @return [Boolean]
         attr_accessor :free_self_parking
-        alias_method :free_self_parking?, :free_self_parking
+        alias free_self_parking? free_self_parking
 
         # Free self parking exception.
         # Corresponds to the JSON property `freeSelfParkingException`
@@ -6472,7 +6472,7 @@ module Google
         # Corresponds to the JSON property `freeValetParking`
         # @return [Boolean]
         attr_accessor :free_valet_parking
-        alias_method :free_valet_parking?, :free_valet_parking
+        alias free_valet_parking? free_valet_parking
 
         # Free valet parking exception.
         # Corresponds to the JSON property `freeValetParkingException`
@@ -6486,7 +6486,7 @@ module Google
         # Corresponds to the JSON property `parkingAvailable`
         # @return [Boolean]
         attr_accessor :parking_available
-        alias_method :parking_available?, :parking_available
+        alias parking_available? parking_available
 
         # Parking available exception.
         # Corresponds to the JSON property `parkingAvailableException`
@@ -6499,7 +6499,7 @@ module Google
         # Corresponds to the JSON property `selfParkingAvailable`
         # @return [Boolean]
         attr_accessor :self_parking_available
-        alias_method :self_parking_available?, :self_parking_available
+        alias self_parking_available? self_parking_available
 
         # Self parking available exception.
         # Corresponds to the JSON property `selfParkingAvailableException`
@@ -6511,7 +6511,7 @@ module Google
         # Corresponds to the JSON property `valetParkingAvailable`
         # @return [Boolean]
         attr_accessor :valet_parking_available
-        alias_method :valet_parking_available?, :valet_parking_available
+        alias valet_parking_available? valet_parking_available
 
         # Valet parking available exception.
         # Corresponds to the JSON property `valetParkingAvailableException`
@@ -6549,7 +6549,7 @@ module Google
         # Corresponds to the JSON property `cash`
         # @return [Boolean]
         attr_accessor :cash
-        alias_method :cash?, :cash
+        alias cash? cash
 
         # Cash exception.
         # Corresponds to the JSON property `cashException`
@@ -6561,7 +6561,7 @@ module Google
         # Corresponds to the JSON property `cheque`
         # @return [Boolean]
         attr_accessor :cheque
-        alias_method :cheque?, :cheque
+        alias cheque? cheque
 
         # Cheque exception.
         # Corresponds to the JSON property `chequeException`
@@ -6574,7 +6574,7 @@ module Google
         # Corresponds to the JSON property `creditCard`
         # @return [Boolean]
         attr_accessor :credit_card
-        alias_method :credit_card?, :credit_card
+        alias credit_card? credit_card
 
         # Credit card exception.
         # Corresponds to the JSON property `creditCardException`
@@ -6586,7 +6586,7 @@ module Google
         # Corresponds to the JSON property `debitCard`
         # @return [Boolean]
         attr_accessor :debit_card
-        alias_method :debit_card?, :debit_card
+        alias debit_card? debit_card
 
         # Debit card exception.
         # Corresponds to the JSON property `debitCardException`
@@ -6600,7 +6600,7 @@ module Google
         # Corresponds to the JSON property `mobileNfc`
         # @return [Boolean]
         attr_accessor :mobile_nfc
-        alias_method :mobile_nfc?, :mobile_nfc
+        alias mobile_nfc? mobile_nfc
 
         # Mobile nfc exception.
         # Corresponds to the JSON property `mobileNfcException`
@@ -6634,7 +6634,7 @@ module Google
         # Corresponds to the JSON property `commonAreasOfferSanitizingItems`
         # @return [Boolean]
         attr_accessor :common_areas_offer_sanitizing_items
-        alias_method :common_areas_offer_sanitizing_items?, :common_areas_offer_sanitizing_items
+        alias common_areas_offer_sanitizing_items? common_areas_offer_sanitizing_items
 
         # Common areas offer sanitizing items exception.
         # Corresponds to the JSON property `commonAreasOfferSanitizingItemsException`
@@ -6645,7 +6645,7 @@ module Google
         # Corresponds to the JSON property `faceMaskRequired`
         # @return [Boolean]
         attr_accessor :face_mask_required
-        alias_method :face_mask_required?, :face_mask_required
+        alias face_mask_required? face_mask_required
 
         # Face mask required exception.
         # Corresponds to the JSON property `faceMaskRequiredException`
@@ -6656,7 +6656,7 @@ module Google
         # Corresponds to the JSON property `guestRoomHygieneKitsAvailable`
         # @return [Boolean]
         attr_accessor :guest_room_hygiene_kits_available
-        alias_method :guest_room_hygiene_kits_available?, :guest_room_hygiene_kits_available
+        alias guest_room_hygiene_kits_available? guest_room_hygiene_kits_available
 
         # Guest room hygiene kits available exception.
         # Corresponds to the JSON property `guestRoomHygieneKitsAvailableException`
@@ -6667,7 +6667,7 @@ module Google
         # Corresponds to the JSON property `protectiveEquipmentAvailable`
         # @return [Boolean]
         attr_accessor :protective_equipment_available
-        alias_method :protective_equipment_available?, :protective_equipment_available
+        alias protective_equipment_available? protective_equipment_available
 
         # Protective equipment available exception.
         # Corresponds to the JSON property `protectiveEquipmentAvailableException`
@@ -6700,7 +6700,7 @@ module Google
         # Corresponds to the JSON property `catsAllowed`
         # @return [Boolean]
         attr_accessor :cats_allowed
-        alias_method :cats_allowed?, :cats_allowed
+        alias cats_allowed? cats_allowed
 
         # Cats allowed exception.
         # Corresponds to the JSON property `catsAllowedException`
@@ -6712,7 +6712,7 @@ module Google
         # Corresponds to the JSON property `dogsAllowed`
         # @return [Boolean]
         attr_accessor :dogs_allowed
-        alias_method :dogs_allowed?, :dogs_allowed
+        alias dogs_allowed? dogs_allowed
 
         # Dogs allowed exception.
         # Corresponds to the JSON property `dogsAllowedException`
@@ -6726,7 +6726,7 @@ module Google
         # Corresponds to the JSON property `petsAllowed`
         # @return [Boolean]
         attr_accessor :pets_allowed
-        alias_method :pets_allowed?, :pets_allowed
+        alias pets_allowed? pets_allowed
 
         # Pets allowed exception.
         # Corresponds to the JSON property `petsAllowedException`
@@ -6739,7 +6739,7 @@ module Google
         # Corresponds to the JSON property `petsAllowedFree`
         # @return [Boolean]
         attr_accessor :pets_allowed_free
-        alias_method :pets_allowed_free?, :pets_allowed_free
+        alias pets_allowed_free? pets_allowed_free
 
         # Pets allowed free exception.
         # Corresponds to the JSON property `petsAllowedFreeException`
@@ -6810,7 +6810,7 @@ module Google
         # Corresponds to the JSON property `commonAreasPhysicalDistancingArranged`
         # @return [Boolean]
         attr_accessor :common_areas_physical_distancing_arranged
-        alias_method :common_areas_physical_distancing_arranged?, :common_areas_physical_distancing_arranged
+        alias common_areas_physical_distancing_arranged? common_areas_physical_distancing_arranged
 
         # Common areas physical distancing arranged exception.
         # Corresponds to the JSON property `commonAreasPhysicalDistancingArrangedException`
@@ -6821,7 +6821,7 @@ module Google
         # Corresponds to the JSON property `physicalDistancingRequired`
         # @return [Boolean]
         attr_accessor :physical_distancing_required
-        alias_method :physical_distancing_required?, :physical_distancing_required
+        alias physical_distancing_required? physical_distancing_required
 
         # Physical distancing required exception.
         # Corresponds to the JSON property `physicalDistancingRequiredException`
@@ -6832,7 +6832,7 @@ module Google
         # Corresponds to the JSON property `safetyDividers`
         # @return [Boolean]
         attr_accessor :safety_dividers
-        alias_method :safety_dividers?, :safety_dividers
+        alias safety_dividers? safety_dividers
 
         # Safety dividers exception.
         # Corresponds to the JSON property `safetyDividersException`
@@ -6843,7 +6843,7 @@ module Google
         # Corresponds to the JSON property `sharedAreasLimitedOccupancy`
         # @return [Boolean]
         attr_accessor :shared_areas_limited_occupancy
-        alias_method :shared_areas_limited_occupancy?, :shared_areas_limited_occupancy
+        alias shared_areas_limited_occupancy? shared_areas_limited_occupancy
 
         # Shared areas limited occupancy exception.
         # Corresponds to the JSON property `sharedAreasLimitedOccupancyException`
@@ -6854,7 +6854,7 @@ module Google
         # Corresponds to the JSON property `wellnessAreasHavePrivateSpaces`
         # @return [Boolean]
         attr_accessor :wellness_areas_have_private_spaces
-        alias_method :wellness_areas_have_private_spaces?, :wellness_areas_have_private_spaces
+        alias wellness_areas_have_private_spaces? wellness_areas_have_private_spaces
 
         # Wellness areas have private spaces exception.
         # Corresponds to the JSON property `wellnessAreasHavePrivateSpacesException`
@@ -6963,7 +6963,7 @@ module Google
         # Corresponds to the JSON property `allInclusiveAvailable`
         # @return [Boolean]
         attr_accessor :all_inclusive_available
-        alias_method :all_inclusive_available?, :all_inclusive_available
+        alias all_inclusive_available? all_inclusive_available
 
         # All inclusive available exception.
         # Corresponds to the JSON property `allInclusiveAvailableException`
@@ -6976,7 +6976,7 @@ module Google
         # Corresponds to the JSON property `allInclusiveOnly`
         # @return [Boolean]
         attr_accessor :all_inclusive_only
-        alias_method :all_inclusive_only?, :all_inclusive_only
+        alias all_inclusive_only? all_inclusive_only
 
         # All inclusive only exception.
         # Corresponds to the JSON property `allInclusiveOnlyException`
@@ -7013,7 +7013,7 @@ module Google
         # Corresponds to the JSON property `kidsStayFree`
         # @return [Boolean]
         attr_accessor :kids_stay_free
-        alias_method :kids_stay_free?, :kids_stay_free
+        alias kids_stay_free? kids_stay_free
 
         # Kids stay free exception.
         # Corresponds to the JSON property `kidsStayFreeException`
@@ -7054,7 +7054,7 @@ module Google
         # Corresponds to the JSON property `smokeFreeProperty`
         # @return [Boolean]
         attr_accessor :smoke_free_property
-        alias_method :smoke_free_property?, :smoke_free_property
+        alias smoke_free_property? smoke_free_property
 
         # Smoke free property exception.
         # Corresponds to the JSON property `smokeFreePropertyException`
@@ -7096,7 +7096,7 @@ module Google
         # Corresponds to the JSON property `adultPool`
         # @return [Boolean]
         attr_accessor :adult_pool
-        alias_method :adult_pool?, :adult_pool
+        alias adult_pool? adult_pool
 
         # Adult pool exception.
         # Corresponds to the JSON property `adultPoolException`
@@ -7112,7 +7112,7 @@ module Google
         # Corresponds to the JSON property `hotTub`
         # @return [Boolean]
         attr_accessor :hot_tub
-        alias_method :hot_tub?, :hot_tub
+        alias hot_tub? hot_tub
 
         # Hot tub exception.
         # Corresponds to the JSON property `hotTubException`
@@ -7125,7 +7125,7 @@ module Google
         # Corresponds to the JSON property `indoorPool`
         # @return [Boolean]
         attr_accessor :indoor_pool
-        alias_method :indoor_pool?, :indoor_pool
+        alias indoor_pool? indoor_pool
 
         # Indoor pool exception.
         # Corresponds to the JSON property `indoorPoolException`
@@ -7148,7 +7148,7 @@ module Google
         # Corresponds to the JSON property `lazyRiver`
         # @return [Boolean]
         attr_accessor :lazy_river
-        alias_method :lazy_river?, :lazy_river
+        alias lazy_river? lazy_river
 
         # Lazy river exception.
         # Corresponds to the JSON property `lazyRiverException`
@@ -7160,7 +7160,7 @@ module Google
         # Corresponds to the JSON property `lifeguard`
         # @return [Boolean]
         attr_accessor :lifeguard
-        alias_method :lifeguard?, :lifeguard
+        alias lifeguard? lifeguard
 
         # Lifeguard exception.
         # Corresponds to the JSON property `lifeguardException`
@@ -7173,7 +7173,7 @@ module Google
         # Corresponds to the JSON property `outdoorPool`
         # @return [Boolean]
         attr_accessor :outdoor_pool
-        alias_method :outdoor_pool?, :outdoor_pool
+        alias outdoor_pool? outdoor_pool
 
         # Outdoor pool exception.
         # Corresponds to the JSON property `outdoorPoolException`
@@ -7196,7 +7196,7 @@ module Google
         # Corresponds to the JSON property `pool`
         # @return [Boolean]
         attr_accessor :pool
-        alias_method :pool?, :pool
+        alias pool? pool
 
         # Pool exception.
         # Corresponds to the JSON property `poolException`
@@ -7218,7 +7218,7 @@ module Google
         # Corresponds to the JSON property `wadingPool`
         # @return [Boolean]
         attr_accessor :wading_pool
-        alias_method :wading_pool?, :wading_pool
+        alias wading_pool? wading_pool
 
         # Wading pool exception.
         # Corresponds to the JSON property `wadingPoolException`
@@ -7232,7 +7232,7 @@ module Google
         # Corresponds to the JSON property `waterPark`
         # @return [Boolean]
         attr_accessor :water_park
-        alias_method :water_park?, :water_park
+        alias water_park? water_park
 
         # Water park exception.
         # Corresponds to the JSON property `waterParkException`
@@ -7244,7 +7244,7 @@ module Google
         # Corresponds to the JSON property `waterslide`
         # @return [Boolean]
         attr_accessor :waterslide
-        alias_method :waterslide?, :waterslide
+        alias waterslide? waterslide
 
         # Waterslide exception.
         # Corresponds to the JSON property `waterslideException`
@@ -7256,7 +7256,7 @@ module Google
         # Corresponds to the JSON property `wavePool`
         # @return [Boolean]
         attr_accessor :wave_pool
-        alias_method :wave_pool?, :wave_pool
+        alias wave_pool? wave_pool
 
         # Wave pool exception.
         # Corresponds to the JSON property `wavePoolException`
@@ -7754,7 +7754,7 @@ module Google
 
         # The reason for which the user is reporting this location when the issue is
         # with the recommendation. This report is useful if the location has been
-        # recommended to the GMB account.
+        # recommended to the Business Profile account.
         # Corresponds to the JSON property `reportReasonBadRecommendation`
         # @return [String]
         attr_accessor :report_reason_bad_recommendation
@@ -7999,7 +7999,7 @@ module Google
         # Corresponds to the JSON property `isAnonymous`
         # @return [Boolean]
         attr_accessor :is_anonymous
-        alias_method :is_anonymous?, :is_anonymous
+        alias is_anonymous? is_anonymous
 
         # The profile photo link of the reviewer. Only populated if `is_anonymous` is
         # false.
@@ -8215,7 +8215,7 @@ module Google
         # Corresponds to the JSON property `isOffered`
         # @return [Boolean]
         attr_accessor :is_offered
-        alias_method :is_offered?, :is_offered
+        alias is_offered? is_offered
 
         # Represents an amount of money with its currency type.
         # Corresponds to the JSON property `price`
@@ -8305,7 +8305,7 @@ module Google
         # Corresponds to the JSON property `baggageStorage`
         # @return [Boolean]
         attr_accessor :baggage_storage
-        alias_method :baggage_storage?, :baggage_storage
+        alias baggage_storage? baggage_storage
 
         # Baggage storage exception.
         # Corresponds to the JSON property `baggageStorageException`
@@ -8319,7 +8319,7 @@ module Google
         # Corresponds to the JSON property `concierge`
         # @return [Boolean]
         attr_accessor :concierge
-        alias_method :concierge?, :concierge
+        alias concierge? concierge
 
         # Concierge exception.
         # Corresponds to the JSON property `conciergeException`
@@ -8331,7 +8331,7 @@ module Google
         # Corresponds to the JSON property `convenienceStore`
         # @return [Boolean]
         attr_accessor :convenience_store
-        alias_method :convenience_store?, :convenience_store
+        alias convenience_store? convenience_store
 
         # Convenience store exception.
         # Corresponds to the JSON property `convenienceStoreException`
@@ -8344,7 +8344,7 @@ module Google
         # Corresponds to the JSON property `currencyExchange`
         # @return [Boolean]
         attr_accessor :currency_exchange
-        alias_method :currency_exchange?, :currency_exchange
+        alias currency_exchange? currency_exchange
 
         # Currency exchange exception.
         # Corresponds to the JSON property `currencyExchangeException`
@@ -8356,7 +8356,7 @@ module Google
         # Corresponds to the JSON property `elevator`
         # @return [Boolean]
         attr_accessor :elevator
-        alias_method :elevator?, :elevator
+        alias elevator? elevator
 
         # Elevator exception.
         # Corresponds to the JSON property `elevatorException`
@@ -8370,7 +8370,7 @@ module Google
         # Corresponds to the JSON property `frontDesk`
         # @return [Boolean]
         attr_accessor :front_desk
-        alias_method :front_desk?, :front_desk
+        alias front_desk? front_desk
 
         # Front desk exception.
         # Corresponds to the JSON property `frontDeskException`
@@ -8383,7 +8383,7 @@ module Google
         # Corresponds to the JSON property `fullServiceLaundry`
         # @return [Boolean]
         attr_accessor :full_service_laundry
-        alias_method :full_service_laundry?, :full_service_laundry
+        alias full_service_laundry? full_service_laundry
 
         # Full service laundry exception.
         # Corresponds to the JSON property `fullServiceLaundryException`
@@ -8396,7 +8396,7 @@ module Google
         # Corresponds to the JSON property `giftShop`
         # @return [Boolean]
         attr_accessor :gift_shop
-        alias_method :gift_shop?, :gift_shop
+        alias gift_shop? gift_shop
 
         # Gift shop exception.
         # Corresponds to the JSON property `giftShopException`
@@ -8414,7 +8414,7 @@ module Google
         # Corresponds to the JSON property `selfServiceLaundry`
         # @return [Boolean]
         attr_accessor :self_service_laundry
-        alias_method :self_service_laundry?, :self_service_laundry
+        alias self_service_laundry? self_service_laundry
 
         # Self service laundry exception.
         # Corresponds to the JSON property `selfServiceLaundryException`
@@ -8429,7 +8429,7 @@ module Google
         # Corresponds to the JSON property `socialHour`
         # @return [Boolean]
         attr_accessor :social_hour
-        alias_method :social_hour?, :social_hour
+        alias social_hour? social_hour
 
         # Social hour exception.
         # Corresponds to the JSON property `socialHourException`
@@ -8440,7 +8440,7 @@ module Google
         # Corresponds to the JSON property `twentyFourHourFrontDesk`
         # @return [Boolean]
         attr_accessor :twenty_four_hour_front_desk
-        alias_method :twenty_four_hour_front_desk?, :twenty_four_hour_front_desk
+        alias twenty_four_hour_front_desk? twenty_four_hour_front_desk
 
         # 24hr front desk exception.
         # Corresponds to the JSON property `twentyFourHourFrontDeskException`
@@ -8452,7 +8452,7 @@ module Google
         # Corresponds to the JSON property `wakeUpCalls`
         # @return [Boolean]
         attr_accessor :wake_up_calls
-        alias_method :wake_up_calls?, :wake_up_calls
+        alias wake_up_calls? wake_up_calls
 
         # Wake up calls exception.
         # Corresponds to the JSON property `wakeUpCallsException`
@@ -8534,7 +8534,7 @@ module Google
         # Corresponds to the JSON property `isClosed`
         # @return [Boolean]
         attr_accessor :is_closed
-        alias_method :is_closed?, :is_closed
+        alias is_closed? is_closed
 
         # The wall time on `start_date` when a location opens, expressed in 24hr ISO
         # 8601 extended format. (hh:mm) Valid values are 00:00-24:00, where 24:00
@@ -8914,7 +8914,7 @@ module Google
         # Corresponds to the JSON property `airportShuttle`
         # @return [Boolean]
         attr_accessor :airport_shuttle
-        alias_method :airport_shuttle?, :airport_shuttle
+        alias airport_shuttle? airport_shuttle
 
         # Airport shuttle exception.
         # Corresponds to the JSON property `airportShuttleException`
@@ -8927,7 +8927,7 @@ module Google
         # Corresponds to the JSON property `carRentalOnProperty`
         # @return [Boolean]
         attr_accessor :car_rental_on_property
-        alias_method :car_rental_on_property?, :car_rental_on_property
+        alias car_rental_on_property? car_rental_on_property
 
         # Car rental on property exception.
         # Corresponds to the JSON property `carRentalOnPropertyException`
@@ -8939,7 +8939,7 @@ module Google
         # Corresponds to the JSON property `freeAirportShuttle`
         # @return [Boolean]
         attr_accessor :free_airport_shuttle
-        alias_method :free_airport_shuttle?, :free_airport_shuttle
+        alias free_airport_shuttle? free_airport_shuttle
 
         # Free airport shuttle exception.
         # Corresponds to the JSON property `freeAirportShuttleException`
@@ -8950,7 +8950,7 @@ module Google
         # Corresponds to the JSON property `freePrivateCarService`
         # @return [Boolean]
         attr_accessor :free_private_car_service
-        alias_method :free_private_car_service?, :free_private_car_service
+        alias free_private_car_service? free_private_car_service
 
         # Free private car service exception.
         # Corresponds to the JSON property `freePrivateCarServiceException`
@@ -8964,7 +8964,7 @@ module Google
         # Corresponds to the JSON property `localShuttle`
         # @return [Boolean]
         attr_accessor :local_shuttle
-        alias_method :local_shuttle?, :local_shuttle
+        alias local_shuttle? local_shuttle
 
         # Local shuttle exception.
         # Corresponds to the JSON property `localShuttleException`
@@ -8978,7 +8978,7 @@ module Google
         # Corresponds to the JSON property `privateCarService`
         # @return [Boolean]
         attr_accessor :private_car_service
-        alias_method :private_car_service?, :private_car_service
+        alias private_car_service? private_car_service
 
         # Private car service exception.
         # Corresponds to the JSON property `privateCarServiceException`
@@ -8991,7 +8991,7 @@ module Google
         # Corresponds to the JSON property `transfer`
         # @return [Boolean]
         attr_accessor :transfer
-        alias_method :transfer?, :transfer
+        alias transfer? transfer
 
         # Transfer exception.
         # Corresponds to the JSON property `transferException`
@@ -9213,7 +9213,7 @@ module Google
         # Corresponds to the JSON property `beachView`
         # @return [Boolean]
         attr_accessor :beach_view
-        alias_method :beach_view?, :beach_view
+        alias beach_view? beach_view
 
         # Beach view exception.
         # Corresponds to the JSON property `beachViewException`
@@ -9225,7 +9225,7 @@ module Google
         # Corresponds to the JSON property `cityView`
         # @return [Boolean]
         attr_accessor :city_view
-        alias_method :city_view?, :city_view
+        alias city_view? city_view
 
         # City view exception.
         # Corresponds to the JSON property `cityViewException`
@@ -9237,7 +9237,7 @@ module Google
         # Corresponds to the JSON property `gardenView`
         # @return [Boolean]
         attr_accessor :garden_view
-        alias_method :garden_view?, :garden_view
+        alias garden_view? garden_view
 
         # Garden view exception.
         # Corresponds to the JSON property `gardenViewException`
@@ -9248,7 +9248,7 @@ module Google
         # Corresponds to the JSON property `lakeView`
         # @return [Boolean]
         attr_accessor :lake_view
-        alias_method :lake_view?, :lake_view
+        alias lake_view? lake_view
 
         # Lake view exception.
         # Corresponds to the JSON property `lakeViewException`
@@ -9261,7 +9261,7 @@ module Google
         # Corresponds to the JSON property `landmarkView`
         # @return [Boolean]
         attr_accessor :landmark_view
-        alias_method :landmark_view?, :landmark_view
+        alias landmark_view? landmark_view
 
         # Landmark view exception.
         # Corresponds to the JSON property `landmarkViewException`
@@ -9273,7 +9273,7 @@ module Google
         # Corresponds to the JSON property `oceanView`
         # @return [Boolean]
         attr_accessor :ocean_view
-        alias_method :ocean_view?, :ocean_view
+        alias ocean_view? ocean_view
 
         # Ocean view exception.
         # Corresponds to the JSON property `oceanViewException`
@@ -9285,7 +9285,7 @@ module Google
         # Corresponds to the JSON property `poolView`
         # @return [Boolean]
         attr_accessor :pool_view
-        alias_method :pool_view?, :pool_view
+        alias pool_view? pool_view
 
         # Pool view exception.
         # Corresponds to the JSON property `poolViewException`
@@ -9297,7 +9297,7 @@ module Google
         # Corresponds to the JSON property `valleyView`
         # @return [Boolean]
         attr_accessor :valley_view
-        alias_method :valley_view?, :valley_view
+        alias valley_view? valley_view
 
         # Valley view exception.
         # Corresponds to the JSON property `valleyViewException`
@@ -9340,7 +9340,7 @@ module Google
         # Corresponds to the JSON property `doctorOnCall`
         # @return [Boolean]
         attr_accessor :doctor_on_call
-        alias_method :doctor_on_call?, :doctor_on_call
+        alias doctor_on_call? doctor_on_call
 
         # Doctor on call exception.
         # Corresponds to the JSON property `doctorOnCallException`
@@ -9355,7 +9355,7 @@ module Google
         # Corresponds to the JSON property `ellipticalMachine`
         # @return [Boolean]
         attr_accessor :elliptical_machine
-        alias_method :elliptical_machine?, :elliptical_machine
+        alias elliptical_machine? elliptical_machine
 
         # Elliptical machine exception.
         # Corresponds to the JSON property `ellipticalMachineException`
@@ -9372,7 +9372,7 @@ module Google
         # Corresponds to the JSON property `fitnessCenter`
         # @return [Boolean]
         attr_accessor :fitness_center
-        alias_method :fitness_center?, :fitness_center
+        alias fitness_center? fitness_center
 
         # Fitness center exception.
         # Corresponds to the JSON property `fitnessCenterException`
@@ -9383,7 +9383,7 @@ module Google
         # Corresponds to the JSON property `freeFitnessCenter`
         # @return [Boolean]
         attr_accessor :free_fitness_center
-        alias_method :free_fitness_center?, :free_fitness_center
+        alias free_fitness_center? free_fitness_center
 
         # Free fitness center exception.
         # Corresponds to the JSON property `freeFitnessCenterException`
@@ -9398,7 +9398,7 @@ module Google
         # Corresponds to the JSON property `freeWeights`
         # @return [Boolean]
         attr_accessor :free_weights
-        alias_method :free_weights?, :free_weights
+        alias free_weights? free_weights
 
         # Free weights exception.
         # Corresponds to the JSON property `freeWeightsException`
@@ -9411,7 +9411,7 @@ module Google
         # Corresponds to the JSON property `massage`
         # @return [Boolean]
         attr_accessor :massage
-        alias_method :massage?, :massage
+        alias massage? massage
 
         # Massage exception.
         # Corresponds to the JSON property `massageException`
@@ -9424,7 +9424,7 @@ module Google
         # Corresponds to the JSON property `salon`
         # @return [Boolean]
         attr_accessor :salon
-        alias_method :salon?, :salon
+        alias salon? salon
 
         # Salon exception.
         # Corresponds to the JSON property `salonException`
@@ -9437,7 +9437,7 @@ module Google
         # Corresponds to the JSON property `sauna`
         # @return [Boolean]
         attr_accessor :sauna
-        alias_method :sauna?, :sauna
+        alias sauna? sauna
 
         # Sauna exception.
         # Corresponds to the JSON property `saunaException`
@@ -9453,7 +9453,7 @@ module Google
         # Corresponds to the JSON property `spa`
         # @return [Boolean]
         attr_accessor :spa
-        alias_method :spa?, :spa
+        alias spa? spa
 
         # Spa exception.
         # Corresponds to the JSON property `spaException`
@@ -9467,7 +9467,7 @@ module Google
         # Corresponds to the JSON property `treadmill`
         # @return [Boolean]
         attr_accessor :treadmill
-        alias_method :treadmill?, :treadmill
+        alias treadmill? treadmill
 
         # Treadmill exception.
         # Corresponds to the JSON property `treadmillException`
@@ -9483,7 +9483,7 @@ module Google
         # Corresponds to the JSON property `weightMachine`
         # @return [Boolean]
         attr_accessor :weight_machine
-        alias_method :weight_machine?, :weight_machine
+        alias weight_machine? weight_machine
 
         # Weight machine exception.
         # Corresponds to the JSON property `weightMachineException`

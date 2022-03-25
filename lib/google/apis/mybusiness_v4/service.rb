@@ -1,4 +1,4 @@
-# Copyright 2020 Google LLC
+# Copyright 2015 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,9 +44,7 @@ module Google
         attr_accessor :quota_user
 
         def initialize
-          super("https://mybusiness.googleapis.com/", "",
-                client_name: "google-apis-mybusiness_v4",
-                client_version: Google::Apis::MybusinessV4::GEM_VERSION)
+          super("https://mybusiness.googleapis.com/", "")
           @batch_path = "batch"
         end
 
@@ -264,13 +262,13 @@ module Google
           execute_or_queue_command(command, &block)
         end
 
-        # List all the GoogleLocations that have been recommended to the specified GMB
-        # account. Recommendations are provided for personal accounts and location
-        # groups only, requests for all other account types will result in an error. The
-        # recommendations for location groups are based on the locations in that group.
-        # The recommendations for personal accounts are based on all of the locations
-        # that the user has access to on Google My Business (which includes locations
-        # they can access through location groups), and is a superset of all
+        # List all the GoogleLocations that have been recommended to the specified
+        # Business Profile account. Recommendations are provided for personal accounts
+        # and location groups only, requests for all other account types will result in
+        # an error. The recommendations for location groups are based on the locations
+        # in that group. The recommendations for personal accounts are based on all of
+        # the locations that the user has access to on Business Profile (which includes
+        # locations they can access through location groups), and is a superset of all
         # recommendations generated for the user.
         # @param [String] name
         #   Name of the account resource to fetch recommended Google locations for.
@@ -347,12 +345,12 @@ module Google
           execute_or_queue_command(command, &block)
         end
 
-        # Sets the pubsub notification settings for the account informing My Business
-        # which topic to send pubsub notifications for: - New reviews for locations
-        # administered by the account. - Updated reviews for locations administered by
-        # the account. - New `GoogleUpdates` for locations administered by the account.
-        # An account will only have one notification settings resource, and only one
-        # pubsub topic can be set.
+        # Sets the pubsub notification settings for the account informing Business
+        # Profile which topic to send pubsub notifications for: - New reviews for
+        # locations administered by the account. - Updated reviews for locations
+        # administered by the account. - New `GoogleUpdates` for locations administered
+        # by the account. An account will only have one notification settings resource,
+        # and only one pubsub topic can be set.
         # @param [String] name
         #   The notification settings resource name.
         # @param [Google::Apis::MybusinessV4::Notifications] notifications_object
@@ -792,7 +790,7 @@ module Google
         end
 
         # Deletes a location. *Note:* If this location cannot be deleted using the API
-        # as marked in the LocationState, use the [Google My Business](https://business.
+        # as marked in the LocationState, use the [Business Profile](https://business.
         # google.com/manage/) website. Returns `NOT_FOUND` if the location does not
         # exist.
         # @param [String] name
@@ -2015,7 +2013,7 @@ module Google
         # @param [Fixnum] page_size
         #   How many media items to return per page. The default value is 100, which is
         #   also the maximum supported number of media items able to be added to a
-        #   location with the My Business API. Maximum page size is 2500.
+        #   location with the Google My Business API. Maximum page size is 2500.
         # @param [String] page_token
         #   If specified, returns the next page of media items.
         # @param [String] fields

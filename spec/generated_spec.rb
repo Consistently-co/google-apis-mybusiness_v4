@@ -17,11 +17,11 @@ require "rspec"
 RSpec.describe "Google::Apis::MybusinessV4" do
   # Minimal test just to ensure no syntax errors in generated code
   it "should load" do
-    expect do
+    expect {
       require "google/apis/mybusiness_v4"
-    end.not_to raise_error
-    expect do
+    }.not_to raise_error
+    expect {
       Google::Apis::MybusinessV4::MyBusinessService.new
-    end.not_to raise_error
+    }.not_to raise_error
   end
 end
