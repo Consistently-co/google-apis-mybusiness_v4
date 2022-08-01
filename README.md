@@ -9,3 +9,5 @@ Run this command in the root folder of this GEM:
     `generate-api gen google/apis/mybusiness_v4 --url=https://developers.google.com/my-business/samples/mybusiness_google_rest_v4p{DOTNUMBER}.json`
 
 Where {DOTNUMBER} is the version (e.g. 4.9 is the last version likely to be created), and it will recreate the lib directory.
+
+`generate-api gen google/apis/mybusiness_v4 --url=https://developers.google.com/my-business/samples/mybusiness_google_rest_v4p9.json`
