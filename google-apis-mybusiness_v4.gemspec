@@ -2,7 +2,7 @@ require File.expand_path("lib/google/apis/mybusiness_v4/gem_version", __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = "google-apis-mybusiness_v4"
-  gem.version = "0.1.0"
+  gem.version = Google::Apis::MybusinessV4::GEM_VERSION
   gem.authors = ["Google LLC"]
   gem.email = "googleapis-packages@google.com"
   gem.summary = "Simple REST client for Google My Business API V4"
@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
     " authentication, pagination, retry, timeouts, and logging. You can use" \
     " this client to access the Google My Business API, but note that some" \
     " services may provide a separate modern client that is easier to use."
-  gem.homepage = "https://github.com/google/google-api-ruby-client"
+  gem.homepage = "https://github.com/Consistently-co/google-apis-mybusiness_v4"
   gem.license = "Apache-2.0"
   gem.metadata = {
     "bug_tracker_uri" => "https://github.com/googleapis/google-api-ruby-client/issues",
