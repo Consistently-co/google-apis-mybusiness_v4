@@ -2,7 +2,7 @@ require File.expand_path("lib/google/apis/mybusiness_v4/gem_version", __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = "google-apis-mybusiness_v4"
-  gem.version = Google::Apis::MybusinessV4::GEM_VERSION
+  gem.version = "0.1.0"
   gem.authors = ["Google LLC"]
   gem.email = "googleapis-packages@google.com"
   gem.summary = "Generated files for the Simple REST client for Google My Business API V4"
