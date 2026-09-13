@@ -7922,10 +7922,20 @@ module Google
         # @return [String]
         attr_accessor :review_id
 
+        # Output only. The media items associated with the review.
+        # Corresponds to the JSON property `reviewMediaItems`
+        # @return [Array<Google::Apis::MybusinessV4::ReviewMediaItem>]
+        attr_accessor :review_media_items
+
         # Represents the location owner/manager's reply to a review.
         # Corresponds to the JSON property `reviewReply`
         # @return [Google::Apis::MybusinessV4::ReviewReply]
         attr_accessor :review_reply
+
+        # Output only. URL for replying to the review.
+        # Corresponds to the JSON property `reviewReplyUrl`
+        # @return [String]
+        attr_accessor :review_reply_url
 
         # Represents the author of the review.
         # Corresponds to the JSON property `reviewer`
@@ -7952,10 +7962,44 @@ module Google
           @create_time = args[:create_time] if args.key?(:create_time)
           @name = args[:name] if args.key?(:name)
           @review_id = args[:review_id] if args.key?(:review_id)
+          @review_media_items = args[:review_media_items] if args.key?(:review_media_items)
           @review_reply = args[:review_reply] if args.key?(:review_reply)
+          @review_reply_url = args[:review_reply_url] if args.key?(:review_reply_url)
           @reviewer = args[:reviewer] if args.key?(:reviewer)
           @star_rating = args[:star_rating] if args.key?(:star_rating)
           @update_time = args[:update_time] if args.key?(:update_time)
+        end
+      end
+
+      # Represents a media item (photo or video) associated with a review.
+      class ReviewMediaItem
+        include Google::Apis::Core::Hashable
+
+        # Output only. Author-provided label for the `thumbnail_url`.
+        # Corresponds to the JSON property `thumbnailLabel`
+        # @return [String]
+        attr_accessor :thumbnail_label
+
+        # Output only. FIFE url for the photo, or video thumbnail if `video_url` is
+        # present.
+        # Corresponds to the JSON property `thumbnailUrl`
+        # @return [String]
+        attr_accessor :thumbnail_url
+
+        # Output only. Playable video url.
+        # Corresponds to the JSON property `videoUrl`
+        # @return [String]
+        attr_accessor :video_url
+
+        def initialize(**args)
+          update!(**args)
+        end
+
+        # Update properties of this object
+        def update!(**args)
+          @thumbnail_label = args[:thumbnail_label] if args.key?(:thumbnail_label)
+          @thumbnail_url = args[:thumbnail_url] if args.key?(:thumbnail_url)
+          @video_url = args[:video_url] if args.key?(:video_url)
         end
       end
 
@@ -7969,6 +8013,17 @@ module Google
         # @return [String]
         attr_accessor :comment
 
+        # Optional. Output only. The policy violation that resulted in rejection. Only
+        # populated if `review_reply_state` is REJECTED.
+        # Corresponds to the JSON property `policyViolation`
+        # @return [String]
+        attr_accessor :policy_violation
+
+        # Output only. The state of the review reply.
+        # Corresponds to the JSON property `reviewReplyState`
+        # @return [String]
+        attr_accessor :review_reply_state
+
         # Output only. The timestamp for when the reply was last modified.
         # Corresponds to the JSON property `updateTime`
         # @return [String]
@@ -7981,6 +8036,8 @@ module Google
         # Update properties of this object
         def update!(**args)
           @comment = args[:comment] if args.key?(:comment)
+          @policy_violation = args[:policy_violation] if args.key?(:policy_violation)
+          @review_reply_state = args[:review_reply_state] if args.key?(:review_reply_state)
           @update_time = args[:update_time] if args.key?(:update_time)
         end
       end

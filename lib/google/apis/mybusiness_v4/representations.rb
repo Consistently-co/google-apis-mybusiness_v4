@@ -945,6 +945,12 @@ module Google
         include Google::Apis::Core::JsonObjectSupport
       end
 
+      class ReviewMediaItem
+        class Representation < Google::Apis::Core::JsonRepresentation; end
+
+        include Google::Apis::Core::JsonObjectSupport
+      end
+
       class ReviewReply
         class Representation < Google::Apis::Core::JsonRepresentation; end
 
@@ -3013,8 +3019,11 @@ module Google
           property :create_time, as: "createTime"
           property :name, as: "name"
           property :review_id, as: "reviewId"
+          collection :review_media_items, as: "reviewMediaItems", class: Google::Apis::MybusinessV4::ReviewMediaItem, decorator: Google::Apis::MybusinessV4::ReviewMediaItem::Representation
+
           property :review_reply, as: "reviewReply", class: Google::Apis::MybusinessV4::ReviewReply, decorator: Google::Apis::MybusinessV4::ReviewReply::Representation
 
+          property :review_reply_url, as: "reviewReplyUrl"
           property :reviewer, as: "reviewer", class: Google::Apis::MybusinessV4::Reviewer, decorator: Google::Apis::MybusinessV4::Reviewer::Representation
 
           property :star_rating, as: "starRating"
@@ -3022,10 +3031,21 @@ module Google
         end
       end
 
+      class ReviewMediaItem
+        # @private
+        class Representation < Google::Apis::Core::JsonRepresentation
+          property :thumbnail_label, as: "thumbnailLabel"
+          property :thumbnail_url, as: "thumbnailUrl"
+          property :video_url, as: "videoUrl"
+        end
+      end
+
       class ReviewReply
         # @private
         class Representation < Google::Apis::Core::JsonRepresentation
           property :comment, as: "comment"
+          property :policy_violation, as: "policyViolation"
+          property :review_reply_state, as: "reviewReplyState"
           property :update_time, as: "updateTime"
         end
       end
