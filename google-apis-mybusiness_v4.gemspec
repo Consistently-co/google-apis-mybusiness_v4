@@ -3,6 +3,10 @@ require File.expand_path("lib/google/apis/mybusiness_v4/gem_version", __dir__)
 Gem::Specification.new do |gem|
   gem.name = "google-apis-mybusiness_v4"
   gem.version = "0.1.0"
+  # Without an explicit date RubyGems reports 1980-01-02 (its reproducible-build default),
+  # so use the date of the last commit. Bundler git checkouts include .git, so this works there too.
+  commit_date = `git -C "#{__dir__}" log -1 --format=%cd --date=short 2>/dev/null`.strip
+  gem.date = commit_date unless commit_date.empty?
   gem.authors = ["Google LLC"]
   gem.email = "googleapis-packages@google.com"
   gem.summary = "Generated files for the Simple REST client for Google My Business API V4"
